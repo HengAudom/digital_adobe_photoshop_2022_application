@@ -26,7 +26,7 @@ window.COURSE_DATA = {
   },
   "courseIntro": {
     "title": "សេចក្តីផ្តើមនៃមុខវិជ្ជា",
-    "content": "## ១. ការពិពណ៌នាអំពីមុខវិជ្ជា (Course Description)\n\nមុខវិជ្ជា **ការរចនាក្រាហ្វិក និងកាត់តរូបភាពជាមួយ Adobe Photoshop 2022 (Basic Adobe Photoshop 2022)** ត្រូវបានរៀបចំឡើងជាពិសេសសម្រាប់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស (Higher Technical Diploma) នៃវិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប (RPITSSR)។ មុខវិជ្ជានេះផ្ដល់នូវមូលដ្ឋានគ្រឹះដ៏រឹងមាំ និងជំនាញអនុវត្តជាក់ស្ដែង លើការកែច្នៃ ការកាត់ត និងការរចនារូបភាពឌីជីថលបែបអាជីព ដោយផ្តោតលើរយៈពេលសិក្សាសរុប ៤៥ ម៉ោង។\n\n## ២. គោលដៅនៃមុខវិជ្ជា (Course Learning Outcomes)\n\nក្រោយពេលបញ្ចប់ការសិក្សាមុខវិជ្ជានេះចប់ជាស្ថាពរ សិស្ស-និស្សិតនឹងមានសមត្ថភាព ៖\n- យល់ដឹងច្បាស់ពីចំណុចប្រទាក់ការងារ Workspace, Tools Panel, Options Bar, Panels និងការប្រើប្រាស់ Shortcuts ជំនាញ\n- បង្កើត និងរៀបចំផ្ទាំងការងារ (Canvas) ត្រឹមត្រូវតាមខ្នាត និង Resolution ទាំងសម្រាប់ឌីជីថល (72 DPI) និងបោះពុម្ព (300 DPI)\n- ស្ទាត់ជំនាញលើការប្រើប្រាស់ឧបករណ៍ជ្រើសរើស (Marquee, Lasso, AI Object Selection, Select Subject) និង Select and Mask\n- យល់ដឹងស៊ីជម្រៅពីការគ្រប់គ្រង Layers (Groups, Blending Modes, Opacity/Fill) និងឧបករណ៍គូរជក់ Brush/Painting Tools\n- រៀបចំអត្ថបទខ្មែរ-អង់គ្លេសប្រកបដោយសោភ័ណភាព (Character/Paragraph Panels) និងការគូររូបរាងធរណីមាត្រ Vector Shapes\n- អនុវត្តបច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Retouching) ដោយ Spot Healing Brush, Clone Stamp និង Content-Aware Fill\n- កែសម្រួលពន្លឺ-ពណ៌ (Adjustment Layers) និងការច្របាច់បញ្ចូលរូបភាពច្នៃប្រឌិតដោយ Layer Mask & Clipping Mask\n- អនុវត្តតម្រងបែបផែន (Filters, Layer Styles), ប្រព័ន្ធពណ៌ RGB/CMYK និងគម្រោងរចនាក្រាហ្វិកពាណិជ្ជកម្មជាក់ស្ដែង\n\n## ៣. រយៈពេលសិក្សា និងកាលវិភាគមុខវិជ្ជា (Course Schedule - 45 Hours)\n\nមុខវិជ្ជានេះមានរយៈពេលសិក្សាសរុប **៤៥ ម៉ោង** ស្មើនឹង **៣០ ពេល** (ក្នុង ១ពេល គិត **៩០ នាទី**) ដោយបែងចែកតាមគ្រោងប្លង់មេរៀន (Course Outline) ដូចខាងក្រោម ៖\n- **មេរៀនទី ១ ដល់ ទី ៧ ៖** ចំនួន ៧ មេរៀន (១៤ ពេល = ២១ ម៉ោង) — ទ្រឹស្ដីគ្រឹះ និងការអនុវត្តជាក់ស្ដែងមូលដ្ឋាន\n- **ពេលទី ១៥ ៖** តេស្តវាយតម្លៃសមត្ថភាពពាក់កណ្ដាលឆមាស Midterm Practical Assessment (១ ពេល = ៩០ នាទី)\n- **មេរៀនទី ៨ ដល់ ទី ១៣ ៖** ចំនួន ៦ មេរៀន (១១ ពេល = ១៦ ម៉ោង ៣០ នាទី) — បច្ចេកទេសកម្រិតមធ្យម និងខ្ពស់\n- **មេរៀនទី ១៤ ៖** ចំនួន ៣ ពេល (៤ ម៉ោង ៣០ នាទី) — គម្រោងអនុវត្តរចនាជាក់ស្ដែងលើបណ្ដាញសង្គម និងការងារបោះពុម្ព\n- **ពេលទី ៣០ ៖** តេស្តវាយតម្លៃសមត្ថភាពបញ្ចប់មុខវិជ្ជា Final Examination (១ ពេល = ៩០ នាទី)\n\n## ៤. គោលការណ៍វាយតម្លៃលទ្ធផលសិក្សា (Assessment Criteria)\n\n- **ក. ការងារជាក្រុម (Teamwork) ៖** ១០%\n- **ខ. វត្តមាន និងការចូលរួម (Attendance & Participation) ៖** ១៥%\n- **គ. កិច្ចការស្រាវជ្រាវ (Assignments) ៖** ១៥%\n- **ឃ. ប្រឡងពាក់កណ្ដាលឆមាស (Midterm Exam) ៖** ២០%\n- **ង. ប្រឡងបញ្ចប់ឆមាស (Final Exam) ៖** ៤០%"
+    "content": "## ១. ការពិពណ៌នាអំពីមុខវិជ្ជា (Course Description)\n\nមុខវិជ្ជា **ការរចនាក្រាហ្វិក និងកាត់តរូបភាពជាមួយ Adobe Photoshop 2022 (Basic Adobe Photoshop 2022)** ត្រូវបានរៀបចំឡើងជាពិសេសសម្រាប់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស (Higher Technical Diploma) នៃវិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប (RPITSSR)។ មុខវិជ្ជានេះផ្ដល់នូវមូលដ្ឋានគ្រឹះដ៏រឹងមាំ និងជំនាញអនុវត្តជាក់ស្ដែង លើការកែច្នៃ ការកាត់ត និងការរចនារូបភាពឌីជីថលបែបអាជីព ប្រកបដោយប្រសិទ្ធភាពខ្ពស់ និងស្របតាមស្ដង់ដារបច្ចេកវិទ្យាទំនើប។\n\n## ២. គោលដៅនៃមុខវិជ្ជា (Course Learning Outcomes)\n\nក្រោយពេលបញ្ចប់ការសិក្សាមុខវិជ្ជានេះចប់ជាស្ថាពរ សិស្ស-និស្សិតនឹងមានសមត្ថភាព ៖\n- យល់ដឹងច្បាស់ពីចំណុចប្រទាក់ការងារ Workspace, Tools Panel, Options Bar, Panels និងការប្រើប្រាស់ Shortcuts ជំនាញ\n- បង្កើត និងរៀបចំផ្ទាំងការងារ (Canvas) ត្រឹមត្រូវតាមខ្នាត និង Resolution ទាំងសម្រាប់ឌីជីថល (72 DPI) និងបោះពុម្ព (300 DPI)\n- ស្ទាត់ជំនាញលើការប្រើប្រាស់ឧបករណ៍ជ្រើសរើស (Marquee, Lasso, AI Object Selection, Select Subject) និង Select and Mask\n- យល់ដឹងស៊ីជម្រៅពីការគ្រប់គ្រង Layers (Groups, Blending Modes, Opacity/Fill) និងឧបករណ៍គូរជក់ Brush/Painting Tools\n- រៀបចំអត្ថបទខ្មែរ-អង់គ្លេសប្រកបដោយសោភ័ណភាព (Character/Paragraph Panels) និងការគូររូបរាងធរណីមាត្រ Vector Shapes\n- អនុវត្តបច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Retouching) ដោយ Spot Healing Brush, Clone Stamp និង Content-Aware Fill\n- កែសម្រួលពន្លឺ-ពណ៌ (Adjustment Layers) និងការច្របាច់បញ្ចូលរូបភាពច្នៃប្រឌិតដោយ Layer Mask & Clipping Mask\n- អនុវត្តតម្រងបែបផែន (Filters, Layer Styles), ប្រព័ន្ធពណ៌ RGB/CMYK និងគម្រោងរចនាក្រាហ្វិកពាណិជ្ជកម្មជាក់ស្ដែង\n\n## ៣. គោលការណ៍វាយតម្លៃលទ្ធផលសិក្សា (Assessment Criteria)\n\n- **ក. ការងារជាក្រុម (Teamwork) ៖** ១០%\n- **ខ. វត្តមាន និងការចូលរួម (Attendance & Participation) ៖** ១៥%\n- **គ. កិច្ចការស្រាវជ្រាវ (Assignments) ៖** ១៥%\n- **ឃ. ប្រឡងពាក់កណ្ដាលឆមាស (Midterm Exam) ៖** ២០%\n- **ង. ប្រឡងបញ្ចប់ឆមាស (Final Exam) ៖** ៤០%"
   },
   "lessons": [
     {
@@ -39,11 +39,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១ ៖ ការចាប់ផ្ដើមជាមួយ Adobe Photoshop 2022 (Getting Started with Adobe Photoshop 2022)",
       "pageStart": 7,
       "pageEnd": 17,
-      "sessions": 2,
-      "sessionRange": "ពេលទី១ - ពេលទី២",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្គាល់ប្រវត្តិ និងតួនាទីស្នូលរបស់កម្មវិធី Adobe Photoshop 2022 ក្នុងវិស័យរចនាក្រាហ្វិកឌីជីថល",
         "យល់ដឹងច្បាស់ពីសមាសភាគផ្ទាំងចំណុចប្រទាក់ទូទៅ (Menu Bar, Options Bar, Tools Panel, Panels/Dock)",
@@ -451,11 +446,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ២ ៖ ផ្ទាំងការងារ និងឧបករណ៍ក្នុងកម្មវិធី Adobe Photoshop 2022 (Photoshop Tools & Workspace)",
       "pageStart": 18,
       "pageEnd": 27,
-      "sessions": 2,
-      "sessionRange": "ពេលទី៣ - ពេលទី៤",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងច្បាស់អំពីសមាសភាគនៃផ្ទាំងការងាររួម (Photoshop Workspace) និងរបៀបរៀបចំឱ្យស្របតាម តម្រូវការការងារ",
         "ស្គាល់តួនាទីស្នូល និងមុខងាររបស់របារ Menu Bar និងរបារជម្រើសឧបករណ៍ Options Bar",
@@ -914,11 +904,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៣ ៖ ឧបករណ៍ជ្រើសរើសក្នុងកម្មវិធី Adobe Photoshop 2022 (Selection Tools)",
       "pageStart": 28,
       "pageEnd": 34,
-      "sessions": 2,
-      "sessionRange": "ពេលទី៥ - ពេលទី៦",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ច្បាស់ពីគោលការណ៍គ្រឹះនៃការជ្រើសរើស (Selections) និងភាពខុសគ្នារវាងឧបករណ៍ជ្រើសរើស នីមួយៗ",
         "ចេះប្រើប្រាស់ក្រុម Marquee Tools (រាងចតុកោណកែង និងពងក្រពើ) និងក្រុម Lasso Tools ដោយ ស្ទាត់ជំនាញ",
@@ -1284,11 +1269,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៤ ៖ ការកាត់តម្រឹម និងបម្លែងទំហំរូបភាព (Image Cropping and Transforming)",
       "pageStart": 35,
       "pageEnd": 42,
-      "sessions": 2,
-      "sessionRange": "ពេលទី៧ - ពេលទី៨",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ចេះប្រើប្រាស់ Crop Tool ដើម្បីកាត់តម្រឹមទំហំរូបភាព និងកំណត់សមាមាត្ររូបភាព (Aspect Ratio)",
         "យល់ដឹងពីមុខងារ Straighten Tool ដើម្បីតម្រង់រូបភាពដែលទ្រេតឱ្យត្រង់កម្រិតផ្តេក ឬបញ្ឈរ",
@@ -1612,11 +1592,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៥ ៖ ការយល់ដឹង និងការគ្រប់គ្រង Layers (Understanding & Managing Layers)",
       "pageStart": 43,
       "pageEnd": 50,
-      "sessions": 2,
-      "sessionRange": "ពេលទី៩ - ពេលទី១០",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងស៊ីជម្រៅអំពីគំនិតគ្រឹះនៃ Layers (ស្រទាប់ការងារ) និងសារៈសំខាន់ក្នុងការរចនាក្រាហ្វិកមិនបំផ្លាញ រូបដើម",
         "ចេះបង្កើត លុប ចម្លងស្ទួន ប្តូរឈ្មោះ និងផ្លាស់ប្តូរលំដាប់លើក្រោមនៃ Layers",
@@ -1992,11 +1967,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៦ ៖ ឧបករណ៍ជក់គូរ ជ័រលុប និងការចាក់ពណ៌ (Brush, Eraser & Painting Tools)",
       "pageStart": 51,
       "pageEnd": 56,
-      "sessions": 2,
-      "sessionRange": "ពេលទី១១ - ពេលទី១២",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Brush Tool និងការកំណត់ទំហំ (Size) កម្រិតរឹង-ទន់ (Hardness)",
         "យល់ដឹងច្បាស់ពីភាពខុសគ្នារវាង Opacity (កម្រិតភាពច្បាស់) និង Flow (ល្បឿនហូរនៃទឹកថ្នាំ)",
@@ -2358,11 +2328,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៧ ៖ ឧបករណ៍អត្ថបទ និងរូបរាងធរណីមាត្រ (Text and Shape Tools)",
       "pageStart": 57,
       "pageEnd": 62,
-      "sessions": 2,
-      "sessionRange": "ពេលទី១៣ - ពេលទី១៤",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Type Tool ដើម្បីបញ្ចូលអក្សរខ្មែរយូនីកូដ និងអក្សរអង់គ្លេសបានត្រឹមត្រូវ",
         "យល់ដឹងច្បាស់ពីការកំណត់តួអក្សរលើ Character Panel (Font, Size, Tracking, Leading, Kerning)",
@@ -2726,11 +2691,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៨ ៖ បច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Photo Retouching)",
       "pageStart": 63,
       "pageEnd": 68,
-      "sessions": 2,
-      "sessionRange": "ពេលទី១៦ - ពេលទី១៧",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Spot Healing Brush Tool ដើម្បីលុបមុន និងស្នាមជាំលើផ្ទៃមុខ ដោយស្វ័យប្រវត្តិ",
         "ចេះប្រើប្រាស់ Healing Brush Tool និង Patch Tool សម្រាប់ជួសជុលផ្ទៃស្បែកធំៗដោយកំណត់គំរូ Sample",
@@ -3084,11 +3044,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៩ ៖ ការកែសម្រួលពន្លឺ និងពណ៌រូបភាព (Color & Image Adjustments)",
       "pageStart": 69,
       "pageEnd": 76,
-      "sessions": 2,
-      "sessionRange": "ពេលទី១៨ - ពេលទី១៩",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងពីភាពខុសគ្នារវាង Direct Adjustments (Image > Adjustments) និង Adjustment Layers មិនបំផ្លាញរូបដើម",
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Levels (Ctrl + L) និងការអានក្រាហ្វ Histogram នៃពន្លឺ",
@@ -3413,11 +3368,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១០ ៖ របាំងស្រទាប់ និងរបាំងខ្ទាស់ (Layer Mask & Clipping Mask)",
       "pageStart": 77,
       "pageEnd": 83,
-      "sessions": 2,
-      "sessionRange": "ពេលទី២០ - ពេលទី២១",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងស៊ីជម្រៅអំពីគោលការណ៍គ្រឹះនៃ Layer Mask ពណ៌ស (បង្ហាញ) និងពណ៌ខ្មៅ (លាក់)",
         "ចេះប្រើប្រាស់ Brush Tool ជាមួយ Layer Mask ដើម្បីកាត់ និងលាយបញ្ចូលរូបភាពប្រកបដោយភាពបត់បែន",
@@ -3754,11 +3704,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១១ ៖ តម្រងបែបផែន និងស្ទីលស្រទាប់ (Filters, Effects & Layer Styles)",
       "pageStart": 84,
       "pageEnd": 90,
-      "sessions": 2,
-      "sessionRange": "ពេលទី២២ - ពេលទី២៣",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងពីប្រព័ន្ធម៉ឺនុយ Filters និងភាពខុសគ្នារវាង Standard Filters និង Smart Filters",
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ក្រុម Blur Filters (Gaussian Blur, Motion Blur, Radial Blur)",
@@ -4074,11 +4019,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១២ ៖ ប្រព័ន្ធពណ៌ និងកម្រិតភាពច្បាស់រូបភាព (Color Modes & Resolution)",
       "pageStart": 91,
       "pageEnd": 96,
-      "sessions": 1,
-      "sessionRange": "ពេលទី២៤",
-      "hours": 1.5,
-      "durationMinutes": 90,
-      "durationLabel": "១ ពេល (៩០ នាទី)",
       "objectives": [
         "យល់ដឹងច្បាស់ពីភាពខុសគ្នារវាងប្រព័ន្ធពណ៌ RGB (អេក្រង់) និង CMYK (បោះពុម្ព)",
         "យល់ដឹងអំពី Grayscale, Index Color, និង Bit Depth (8-bit, 16-bit, 32-bit)",
@@ -4386,11 +4326,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១៣ ៖ បច្ចេកទេសបន្ថែម និងលំហូរការងារកម្រិតខ្ពស់ (Advanced Techniques & Workflow)",
       "pageStart": 97,
       "pageEnd": 102,
-      "sessions": 2,
-      "sessionRange": "ពេលទី២៥ - ពេលទី២៦",
-      "hours": 3,
-      "durationMinutes": 180,
-      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងស៊ីជម្រៅអំពី Smart Objects និងគុណសម្បត្តិក្នុងការការពារគុណភាពរូបភាពពេលពង្រីក-បង្រួម",
         "ស្ទាត់ជំនាញលើបច្ចេកទេសបម្លែងកម្រិតខ្ពស់ Perspective Warp និង Puppet Warp សម្រាប់ចលនារូបភាព",
@@ -4686,11 +4621,6 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១៤ ៖ គម្រោងអនុវត្តការរចនាក្រាហ្វិកជាក់ស្ដែង (Practical Design Projects)",
       "pageStart": 103,
       "pageEnd": 120,
-      "sessions": 3,
-      "sessionRange": "ពេលទី២៧ - ពេលទី២៩",
-      "hours": 4.5,
-      "durationMinutes": 270,
-      "durationLabel": "៣ ពេល (៤ ម៉ោង ៣០ នាទី)",
       "objectives": [
         "អនុវត្តចំណេះដឹងទ្រឹស្ដី និងឧបករណ៍ទាំងអស់ដែលបានរៀនពីមេរៀនទី ១ ដល់ទី ១៤ ទៅក្នុងការងាររចនា ជាក់ស្តែង",
         "ស្ទាត់ជំនាញលើការបង្កើតគម្រោងផ្សាយពាណិជ្ជកម្មពិតប្រាកដចំនួន ១០ ប្រភេទផ្សេងៗគ្នា",
@@ -5637,11 +5567,6 @@ window.COURSE_DATA = {
       "fullTitle": "ឧបសម្ព័ន្ធទី ១ ៖ តារាងផ្លូវកាត់ក្តារចុច (Keyboard Shortcuts Reference)",
       "pageStart": 121,
       "pageEnd": 125,
-      "sessions": 0,
-      "sessionRange": null,
-      "hours": 0,
-      "durationMinutes": 0,
-      "durationLabel": "ឯកសារយោងជំនួយ",
       "objectives": [],
       "sections": [
         {
@@ -6093,11 +6018,6 @@ window.COURSE_DATA = {
       "fullTitle": "ឧបសម្ព័ន្ធទី ២ ៖ វចនានុក្រមបច្ចេកទេសក្រាហ្វិក អង់គ្លេស-ខ្មែរ (Technical Glossary)",
       "pageStart": 126,
       "pageEnd": 132,
-      "sessions": 0,
-      "sessionRange": null,
-      "hours": 0,
-      "durationMinutes": 0,
-      "durationLabel": "ឯកសារយោងជំនួយ",
       "objectives": [],
       "sections": [
         {
@@ -6536,11 +6456,6 @@ window.COURSE_DATA = {
       "fullTitle": "ឧបសម្ព័ន្ធទី ៣ ៖ កម្រងចម្លើយមេរៀន (Official Answer Key)",
       "pageStart": 133,
       "pageEnd": 135,
-      "sessions": 0,
-      "sessionRange": null,
-      "hours": 0,
-      "durationMinutes": 0,
-      "durationLabel": "កម្រងចម្លើយផ្លូវការ",
       "objectives": [],
       "sections": [
         {

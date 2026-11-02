@@ -581,28 +581,6 @@ def main(docx_path):
         next_page = toc_pages.get(num + 1)
         page_end = (next_page - 1) if next_page else (page_start + 2)
 
-        # Official TVET Course Outline schedule (Total 45h = 30 sessions, 1 session = 90 min)
-        lesson_timings = {
-            1:  {'sessions': 2, 'sessionRange': 'ពេលទី១ - ពេលទី២', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            2:  {'sessions': 2, 'sessionRange': 'ពេលទី៣ - ពេលទី៤', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            3:  {'sessions': 2, 'sessionRange': 'ពេលទី៥ - ពេលទី៦', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            4:  {'sessions': 2, 'sessionRange': 'ពេលទី៧ - ពេលទី៨', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            5:  {'sessions': 2, 'sessionRange': 'ពេលទី៩ - ពេលទី១០', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            6:  {'sessions': 2, 'sessionRange': 'ពេលទី១១ - ពេលទី១២', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            7:  {'sessions': 2, 'sessionRange': 'ពេលទី១៣ - ពេលទី១៤', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            8:  {'sessions': 2, 'sessionRange': 'ពេលទី១៦ - ពេលទី១៧', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            9:  {'sessions': 2, 'sessionRange': 'ពេលទី១៨ - ពេលទី១៩', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            10: {'sessions': 2, 'sessionRange': 'ពេលទី២០ - ពេលទី២១', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            11: {'sessions': 2, 'sessionRange': 'ពេលទី២២ - ពេលទី២៣', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            12: {'sessions': 1, 'sessionRange': 'ពេលទី២៤', 'hours': 1.5, 'minutes': 90, 'label': '១ ពេល (៩០ នាទី)'},
-            13: {'sessions': 2, 'sessionRange': 'ពេលទី២៥ - ពេលទី២៦', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
-            14: {'sessions': 3, 'sessionRange': 'ពេលទី២៧ - ពេលទី២៩', 'hours': 4.5, 'minutes': 270, 'label': '៣ ពេល (៤ ម៉ោង ៣០ នាទី)'},
-            15: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'ឯកសារយោងជំនួយ'},
-            16: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'ឯកសារយោងជំនួយ'},
-            17: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'កម្រងចម្លើយផ្លូវការ'},
-        }
-        timing = lesson_timings.get(num, {'sessions': 2, 'sessionRange': '', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'})
-
         lessons.append({
             'id': lesson_id,
             'number': num,
@@ -613,11 +591,6 @@ def main(docx_path):
             'fullTitle': full_title,
             'pageStart': page_start,
             'pageEnd': page_end,
-            'sessions': timing['sessions'],
-            'sessionRange': timing['sessionRange'],
-            'hours': timing['hours'],
-            'durationMinutes': timing['minutes'],
-            'durationLabel': timing['label'],
             'objectives': lb.objectives,
             'sections': lb.sections
         })
@@ -674,7 +647,7 @@ def main(docx_path):
             "មុខវិជ្ជា **ការរចនាក្រាហ្វិក និងកាត់តរូបភាពជាមួយ Adobe Photoshop 2022 (Basic Adobe Photoshop 2022)** "
             "ត្រូវបានរៀបចំឡើងជាពិសេសសម្រាប់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស (Higher Technical Diploma) "
             "នៃវិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប (RPITSSR)។ មុខវិជ្ជានេះផ្ដល់នូវមូលដ្ឋានគ្រឹះដ៏រឹងមាំ និងជំនាញអនុវត្តជាក់ស្ដែង "
-            "លើការកែច្នៃ ការកាត់ត និងការរចនារូបភាពឌីជីថលបែបអាជីព ដោយផ្តោតលើរយៈពេលសិក្សាសរុប ៤៥ ម៉ោង។\n\n"
+            "លើការកែច្នៃ ការកាត់ត និងការរចនារូបភាពឌីជីថលបែបអាជីព ប្រកបដោយប្រសិទ្ធភាពខ្ពស់ និងស្របតាមស្ដង់ដារបច្ចេកវិទ្យាទំនើប។\n\n"
             "## ២. គោលដៅនៃមុខវិជ្ជា (Course Learning Outcomes)\n\n"
             "ក្រោយពេលបញ្ចប់ការសិក្សាមុខវិជ្ជានេះចប់ជាស្ថាពរ សិស្ស-និស្សិតនឹងមានសមត្ថភាព ៖\n"
             "- យល់ដឹងច្បាស់ពីចំណុចប្រទាក់ការងារ Workspace, Tools Panel, Options Bar, Panels និងការប្រើប្រាស់ Shortcuts ជំនាញ\n"
@@ -685,14 +658,7 @@ def main(docx_path):
             "- អនុវត្តបច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Retouching) ដោយ Spot Healing Brush, Clone Stamp និង Content-Aware Fill\n"
             "- កែសម្រួលពន្លឺ-ពណ៌ (Adjustment Layers) និងការច្របាច់បញ្ចូលរូបភាពច្នៃប្រឌិតដោយ Layer Mask & Clipping Mask\n"
             "- អនុវត្តតម្រងបែបផែន (Filters, Layer Styles), ប្រព័ន្ធពណ៌ RGB/CMYK និងគម្រោងរចនាក្រាហ្វិកពាណិជ្ជកម្មជាក់ស្ដែង\n\n"
-            "## ៣. រយៈពេលសិក្សា និងកាលវិភាគមុខវិជ្ជា (Course Schedule - 45 Hours)\n\n"
-            "មុខវិជ្ជានេះមានរយៈពេលសិក្សាសរុប **៤៥ ម៉ោង** ស្មើនឹង **៣០ ពេល** (ក្នុង ១ពេល គិត **៩០ នាទី**) ដោយបែងចែកតាមគ្រោងប្លង់មេរៀន (Course Outline) ដូចខាងក្រោម ៖\n"
-            "- **មេរៀនទី ១ ដល់ ទី ៧ ៖** ចំនួន ៧ មេរៀន (១៤ ពេល = ២១ ម៉ោង) — ទ្រឹស្ដីគ្រឹះ និងការអនុវត្តជាក់ស្ដែងមូលដ្ឋាន\n"
-            "- **ពេលទី ១៥ ៖** តេស្តវាយតម្លៃសមត្ថភាពពាក់កណ្ដាលឆមាស Midterm Practical Assessment (១ ពេល = ៩០ នាទី)\n"
-            "- **មេរៀនទី ៨ ដល់ ទី ១៣ ៖** ចំនួន ៦ មេរៀន (១១ ពេល = ១៦ ម៉ោង ៣០ នាទី) — បច្ចេកទេសកម្រិតមធ្យម និងខ្ពស់\n"
-            "- **មេរៀនទី ១៤ ៖** ចំនួន ៣ ពេល (៤ ម៉ោង ៣០ នាទី) — គម្រោងអនុវត្តរចនាជាក់ស្ដែងលើបណ្ដាញសង្គម និងការងារបោះពុម្ព\n"
-            "- **ពេលទី ៣០ ៖** តេស្តវាយតម្លៃសមត្ថភាពបញ្ចប់មុខវិជ្ជា Final Examination (១ ពេល = ៩០ នាទី)\n\n"
-            "## ៤. គោលការណ៍វាយតម្លៃលទ្ធផលសិក្សា (Assessment Criteria)\n\n"
+            "## ៣. គោលការណ៍វាយតម្លៃលទ្ធផលសិក្សា (Assessment Criteria)\n\n"
             "- **ក. ការងារជាក្រុម (Teamwork) ៖** ១០%\n"
             "- **ខ. វត្តមាន និងការចូលរួម (Attendance & Participation) ៖** ១៥%\n"
             "- **គ. កិច្ចការស្រាវជ្រាវ (Assignments) ៖** ១៥%\n"

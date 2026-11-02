@@ -30,20 +30,8 @@
     return String(value).replace(/[0-9]/g, d => KH_DIGITS[d]);
   }
 
-  // Study duration label matching the official 45-hour Course Outline (1 ពេល = 90 នាទី)
   function studyTimeLabel(lesson) {
-    if (!lesson) return '';
-    if (lesson.isAppendix) {
-      if (lesson.id === 'lesson-17') return 'កម្រងចម្លើយផ្លូវការ';
-      return 'ឯកសារយោងជំនួយ';
-    }
-    if (lesson.durationLabel) return lesson.durationLabel;
-    if (lesson.sessions) {
-      if (lesson.sessions === 1) return `${kh(1)} ពេល (៩០ នាទី)`;
-      if (lesson.sessions === 3) return `${kh(3)} ពេល (៤ ម៉ោង ៣០ នាទី)`;
-      return `${kh(lesson.sessions)} ពេល (${kh(lesson.hours || (lesson.sessions * 1.5))} ម៉ោង)`;
-    }
-    return 'ឯកសារយោងជំនួយ';
+    return '';
   }
 
   // Table cells helper
@@ -677,8 +665,8 @@
 
         <div class="lesson-action-bar">
           <span style="font-size:0.85rem; color:var(--text-muted); display:flex; align-items:center; gap:0.4rem;">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            ${lesson.sessionRange ? `កាលវិភាគ៖ <strong>${lesson.sessionRange}</strong> • ${studyTimeLabel(lesson)}` : (lesson.isAppendix ? `ប្រភេទឯកសារ៖ <strong>${studyTimeLabel(lesson)}</strong>` : `រយៈពេលសិក្សា៖ ${studyTimeLabel(lesson)}`)}
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            ${lesson.isAppendix ? `ប្រភេទឯកសារ៖ <strong>${lesson.title}</strong>` : `សៀវភៅបោះពុម្ព៖ <strong>ទំព័រ ${kh(lesson.pageStart)} ដល់ ${kh(lesson.pageEnd)}</strong> (${kh(lesson.sections.length)} ចំណុច)`}
           </span>
           <button class="btn-copy-formula" onclick="window.print()" style="margin-left:auto;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; margin-right:4px;"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
@@ -934,7 +922,7 @@
           <div class="home-hero-content">
             <div style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.35rem 0.85rem; background-color:var(--bg-surface); border:1px solid var(--border-color); border-radius:9999px; font-size:0.8rem; font-weight:700; color:var(--primary); margin-bottom:1rem;">
               <span style="width:8px; height:8px; border-radius:50%; background-color:#10b981;"></span>
-              កាលវិភាគសិក្សា៖ ៤៥ ម៉ោង (៣០ ពេល • ១ ពេល = ៩០ នាទី)
+              កម្មវិធីសិក្សា៖ សញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស (RPITSSR)
             </div>
 
             <h1 style="font-size:clamp(1.6rem, 1.3rem + 1vw, 2.2rem); font-weight:800; line-height:1.45; color:var(--text-main); margin-bottom:0.75rem;">
@@ -993,8 +981,6 @@
           </div>
           <div class="home-lesson-meta">
             <span>${kh(l.sections.length)} ចំណុចមេរៀន</span>
-            <span style="margin: 0 0.35rem;">•</span>
-            <span style="color:var(--primary); font-weight:600;">${studyTimeLabel(l)}</span>
             ${isDone ? '<span style="margin-left:auto; color:#10b981; font-weight:700; font-size:0.8rem;">✓ រៀនរួច</span>' : ''}
           </div>
         </a>
