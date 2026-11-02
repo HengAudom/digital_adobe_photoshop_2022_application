@@ -6532,24 +6532,141 @@ window.COURSE_DATA = {
       "isAppendix": true,
       "appendixNum": 3,
       "label": "ឧបសម្ព័ន្ធទី ៣",
-      "title": "កម្រងចម្លើយផ្លូវការ (Official Answer Key)",
-      "fullTitle": "ឧបសម្ព័ន្ធទី ៣ ៖ កម្រងចម្លើយផ្លូវការ (Official Answer Key)",
+      "title": "កម្រងចម្លើយមេរៀន (Official Answer Key)",
+      "fullTitle": "ឧបសម្ព័ន្ធទី ៣ ៖ កម្រងចម្លើយមេរៀន (Official Answer Key)",
       "pageStart": 133,
-      "pageEnd": 137,
-      "sessions": 1,
-      "sessionRange": "ពេលទី៣០",
-      "hours": 1.5,
-      "durationMinutes": 90,
-      "durationLabel": "១ ពេល (៩០ នាទី)",
+      "pageEnd": 135,
+      "sessions": 0,
+      "sessionRange": null,
+      "hours": 0,
+      "durationMinutes": 0,
+      "durationLabel": "កម្រងចម្លើយផ្លូវការ",
       "objectives": [],
       "sections": [
         {
-          "title": "វិញ្ញាសាប្រឡងទ្រឹស្ដីបញ្ចប់វគ្គ (Final Comprehensive Exam)",
+          "title": "កម្រងចម្លើយផ្លូវការ (Official Answer Key)",
           "items": [
             {
               "type": "callout",
               "kind": "tip",
               "text": "កម្រងចម្លើយផ្លូវការសម្រាប់សំណួរពហុជ្រើសរើស (MCQs) នៃគ្រប់មេរៀនទាំងអស់ និងវិញ្ញាសាប្រឡង ទ្រឹស្ដីបញ្ចប់វគ្គ ៖"
+            },
+            {
+              "type": "table",
+              "headers": [
+                "មេរៀន / វិញ្ញាសា",
+                "ចម្លើយសំណួរទី ១",
+                "ចម្លើយសំណួរទី ២",
+                "ចម្លើយសំណួរទី ៣",
+                "ចម្លើយសំណួរទី ៤",
+                "ចម្លើយសំណួរទី ៥"
+              ],
+              "rows": [
+                [
+                  "មេរៀនទី ២ ៖ Tools & Workspace",
+                  "B (Tab)",
+                  "C (Options Bar)",
+                  "B (Fit on Screen)",
+                  "B (History Panel)",
+                  "B (Ctrl + R)"
+                ],
+                [
+                  "មេរៀនទី ៣ ៖ Selection Tools",
+                  "B (Ctrl + D)",
+                  "C (Shift)",
+                  "B (Ctrl + Shift + I)",
+                  "C (Object Selection)",
+                  "B (Ctrl + J)"
+                ],
+                [
+                  "មេរៀនទី ៤ ៖ Cropping & Transform",
+                  "B (Ctrl + T)",
+                  "B (Straighten)",
+                  "B (Image Size vs Canvas)",
+                  "B (Enter)",
+                  "B (Flip Horizontal)"
+                ],
+                [
+                  "មេរៀនទី ៥ ៖ Managing Layers",
+                  "A (Ctrl + G)",
+                  "B (Opacity vs Fill)",
+                  "C (Screen)",
+                  "B (Ctrl + J)",
+                  "C (Lock Transparent)"
+                ],
+                [
+                  "មេរៀនទី ៦ ៖ Brush & Painting",
+                  "B (] គ្នាបិទ)",
+                  "B (គែមព្រិលទន់)",
+                  "B (គ្រាប់ចុច D)",
+                  "B (Eyedropper)",
+                  "B (Define Brush Preset)"
+                ],
+                [
+                  "មេរៀនទី ៧ ៖ Text & Shape Tools",
+                  "B (Paragraph Type)",
+                  "B (Line Spacing)",
+                  "B (Vector Graphics)",
+                  "B (Shift)",
+                  "B (World-Ready Layout)"
+                ],
+                [
+                  "មេរៀនទី ៨ ៖ Photo Retouching",
+                  "B (Spot Healing Brush)",
+                  "C (គ្រាប់ចុច Alt)",
+                  "B (បង្កើនពន្លឺ Highlight)",
+                  "A (Content-Aware Fill)",
+                  "B (Current & Below)"
+                ],
+                [
+                  "មេរៀនទី ៩ ៖ Color Adjustments",
+                  "B (Non-destructive)",
+                  "A (Ctrl + L)",
+                  "B (S-Curve Contrast)",
+                  "B (Vibrance)",
+                  "C (Ctrl + U)"
+                ],
+                [
+                  "មេរៀនទី ១០ ៖ Layer & Clipping Mask",
+                  "B (លាក់បាំងរូបភាព)",
+                  "B (White Reveals, Black Conceals)",
+                  "C (Ctrl + Alt + G)",
+                  "B (គ្រាប់ចុច X)",
+                  "B (Alt + Click លើ Mask)"
+                ],
+                [
+                  "មេរៀនទី ១១ ៖ Filters & Effects",
+                  "B (Smart Object)",
+                  "B (Ctrl + Shift + A)",
+                  "A (Face-Aware Liquify)",
+                  "C (Drop Shadow)",
+                  "B (Motion Blur)"
+                ],
+                [
+                  "មេរៀនទី ១២ ៖ Color Modes & Res",
+                  "B (CMYK Color)",
+                  "C (300 DPI)",
+                  "B (Pixels Per Inch)",
+                  "B (1080 x 1080 px)",
+                  "B (ការពារកាំបិតកាត់)"
+                ],
+                [
+                  "មេរៀនទី ១៣ ៖ Saving & Exporting",
+                  "C (PSD Format)",
+                  "B (PNG Format)",
+                  "B (Save a Copy)",
+                  "B (Alt+Shift+Ctrl+W)",
+                  "B (Press Quality)"
+                ],
+                [
+                  "មេរៀនទី ១៤ ៖ Advanced Techniques",
+                  "B (Smart Object)",
+                  "C (Puppet Warp)",
+                  "B (Content-Aware Scale)",
+                  "B (បើក Caps Lock)",
+                  "B (Actions Panel)"
+                ]
+              ]
             }
           ]
         }

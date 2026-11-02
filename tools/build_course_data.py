@@ -392,28 +392,12 @@ def build_lesson(docx, images, lesson_id, lesson_num, lesson_blocks):
                     lb.add(item)
                 continue
 
-            # Final Exam Section in Appendix 3
-            if lesson_id == 'lesson-17' and ('វិញ្ញាសា' in p):
-                sec_title = 'វិញ្ញាសាប្រឡងទ្រឹស្ដីបញ្ចប់វគ្គ (Final Comprehensive Exam)'
+            # Appendix 3: Answer Key Section
+            if lesson_id == 'lesson-17' and ('កម្រងចម្លើយ' in p or 'Answer Key' in p):
+                sec_title = 'កម្រងចម្លើយផ្លូវការ (Official Answer Key)'
                 lb.section(sec_title)
                 lb.add({'type': 'callout', 'kind': 'tip', 'text': txt})
-
-                # Gather all blocks of exam
-                exam_blocks = []
                 i += 1
-                while i < n_blocks:
-                    nb = lesson_blocks[i]
-                    if nb['k'] == 'p':
-                        np_txt = plain(nb['text'])
-                        n_style = nb.get('style', '')
-                        if (n_style in ('មេរៀនទី', 'a2') or np_txt.startswith('ឧបសម្ព័ន្ធទី')):
-                            break
-                    exam_blocks.append(nb)
-                    i += 1
-
-                parsed_items = parse_quiz_block(exam_blocks, lesson_num, is_exam=True)
-                for item in parsed_items:
-                    lb.add(item)
                 continue
 
             # Check if this paragraph is a section heading
@@ -426,7 +410,7 @@ def build_lesson(docx, images, lesson_id, lesson_num, lesson_blocks):
                 is_sec = True
             elif lesson_id == 'lesson-16' and ('កម្រងវាក្យសព្ទ' in p or 'Technical Glossary' in p):
                 is_sec = True
-            elif lesson_id == 'lesson-18' and ('កម្រងចម្លើយ' in p or 'Answer Key' in p):
+            elif lesson_id == 'lesson-17' and ('កម្រងចម្លើយ' in p or 'Answer Key' in p):
                 is_sec = True
 
             if is_sec:
@@ -615,8 +599,7 @@ def main(docx_path):
             14: {'sessions': 3, 'sessionRange': 'ពេលទី២៧ - ពេលទី២៩', 'hours': 4.5, 'minutes': 270, 'label': '៣ ពេល (៤ ម៉ោង ៣០ នាទី)'},
             15: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'ឯកសារយោងជំនួយ'},
             16: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'ឯកសារយោងជំនួយ'},
-            17: {'sessions': 1, 'sessionRange': 'ពេលទី៣០', 'hours': 1.5, 'minutes': 90, 'label': '១ ពេល (៩០ នាទី)'},
-            18: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'កម្រងចម្លើយផ្លូវការ'},
+            17: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'កម្រងចម្លើយផ្លូវការ'},
         }
         timing = lesson_timings.get(num, {'sessions': 2, 'sessionRange': '', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'})
 

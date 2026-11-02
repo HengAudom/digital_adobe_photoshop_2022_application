@@ -33,6 +33,10 @@
   // Study duration label matching the official 45-hour Course Outline (1 ពេល = 90 នាទី)
   function studyTimeLabel(lesson) {
     if (!lesson) return '';
+    if (lesson.isAppendix) {
+      if (lesson.id === 'lesson-17') return 'កម្រងចម្លើយផ្លូវការ';
+      return 'ឯកសារយោងជំនួយ';
+    }
     if (lesson.durationLabel) return lesson.durationLabel;
     if (lesson.sessions) {
       if (lesson.sessions === 1) return `${kh(1)} ពេល (៩០ នាទី)`;
@@ -459,7 +463,7 @@
         </div>
 
         <div>
-          <div class="sidebar-section-title">ឧបសម្ព័ន្ធ និងវិញ្ញាសា (${kh(appendices.length)} ឧបសម្ព័ន្ធ)</div>
+          <div class="sidebar-section-title">ឧបសម្ព័ន្ធ (${kh(appendices.length)} ឧបសម្ព័ន្ធ)</div>
     `;
 
     appendices.forEach(app => {
@@ -634,7 +638,7 @@
 
     const isCompleted = state.completedLessons.has(lesson.id);
     const isApp = !!lesson.isAppendix;
-    const categoryName = isApp ? 'ឧបសម្ព័ន្ធ និងវិញ្ញាសា' : 'មាតិកាមេរៀន';
+    const categoryName = isApp ? 'ឧបសម្ព័ន្ធ' : 'មាតិកាមេរៀន';
 
     // Find Prev and Next Lessons
     const currentIndex = data.lessons.findIndex(l => l.id === lessonId);
@@ -674,7 +678,7 @@
         <div class="lesson-action-bar">
           <span style="font-size:0.85rem; color:var(--text-muted); display:flex; align-items:center; gap:0.4rem;">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            ${lesson.sessionRange ? `កាលវិភាគ៖ <strong>${lesson.sessionRange}</strong> • ${studyTimeLabel(lesson)}` : `រយៈពេលសិក្សា៖ ${studyTimeLabel(lesson)}`}
+            ${lesson.sessionRange ? `កាលវិភាគ៖ <strong>${lesson.sessionRange}</strong> • ${studyTimeLabel(lesson)}` : (lesson.isAppendix ? `ប្រភេទឯកសារ៖ <strong>${studyTimeLabel(lesson)}</strong>` : `រយៈពេលសិក្សា៖ ${studyTimeLabel(lesson)}`)}
           </span>
           <button class="btn-copy-formula" onclick="window.print()" style="margin-left:auto;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; margin-right:4px;"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
