@@ -1044,9 +1044,14 @@
 
         <!-- Mobile Study & PWA Installation Guide -->
         <div class="install-guide-card" style="background-color:var(--bg-card); border:1px solid var(--border-color); border-radius:16px; padding:1.75rem; box-shadow:var(--shadow-sm); margin-top:1.5rem;">
-          <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem;">
-            <div style="width:40px; height:40px; border-radius:10px; background-color:rgba(37,99,235,0.12); display:flex; align-items:center; justify-content:center; color:var(--primary);">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          <div style="display:flex; align-items:center; gap:0.85rem; margin-bottom:1rem;">
+            <div style="width:44px; height:44px; border-radius:12px; background:linear-gradient(135deg, rgba(37,99,235,0.15), rgba(124,58,237,0.15)); display:flex; align-items:center; justify-content:center; color:var(--primary); flex-shrink:0;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="5" y="2" width="14" height="20" rx="3" ry="3"/>
+                <path d="M12 18h.01"/>
+                <path d="M9 10l3 3 3-3"/>
+                <path d="M12 6v7"/>
+              </svg>
             </div>
             <div>
               <h3 style="font-size:1.15rem; font-weight:700; color:var(--text-main); margin:0;">របៀបបើក និងរៀនលើទូរស័ព្ទដៃ (iOS & Android)</h3>
@@ -1055,28 +1060,36 @@
           </div>
 
           <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; margin-top:1.25rem;">
-            <div style="padding:1rem; background-color:var(--bg-subtle); border-radius:10px; border:1px solid var(--border-color);">
-              <div style="font-weight:700; font-size:0.95rem; color:var(--text-main); margin-bottom:0.5rem; display:flex; align-items:center; gap:0.4rem;">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--primary);"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
-                សម្រាប់ iPhone / iPad (iOS)
+            <div style="padding:1.15rem; background-color:var(--bg-subtle); border-radius:12px; border:1px solid var(--border-color);">
+              <div style="font-weight:700; font-size:1rem; color:var(--text-main); margin-bottom:0.75rem; display:flex; align-items:center; gap:0.5rem;">
+                <span style="width:28px; height:28px; border-radius:8px; background:var(--bg-card); border:1px solid var(--border-color); display:inline-flex; align-items:center; justify-content:center; color:var(--text-main); box-shadow:0 1px 2px rgba(0,0,0,0.05); flex-shrink:0;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.61-.74 1.04-1.77.92-2.8-.9.04-2 .61-2.65 1.37-.58.67-.99 1.73-.85 2.75 1.01.08 1.98-.55 2.58-1.32z"/>
+                  </svg>
+                </span>
+                <span>សម្រាប់ iPhone / iPad (iOS)</span>
               </div>
-              <ol style="margin:0; padding-left:1.25rem; font-size:0.88rem; color:var(--text-body); line-height:1.7;">
-                <li>បើកតាមកម្មវិធី <strong>Safari</strong></li>
-                <li>ចុចប៊ូតុង <strong>Share</strong> (សញ្ញាព្រួញឡើងលើ)</li>
-                <li>ជ្រើសយក <strong>«Add to Home Screen»</strong> (បន្ថែមទៅអេក្រង់ដើម)</li>
+              <ol style="margin:0; padding-left:1.25rem; font-size:0.88rem; color:var(--text-body); line-height:1.75;">
+                <li>បើកតាមកម្មវិធី <strong>Safari</strong> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:-2px; margin-left:2px;"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg></li>
+                <li>ចុចប៊ូតុង <strong>Share</strong> (សញ្ញាព្រួញឡើងលើ) <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:-2px; margin-left:2px;"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></li>
+                <li>ជ្រើសយក <strong>«Add to Home Screen»</strong> (បន្ថែមទៅអេក្រង់ដើម) <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:-2px; margin-left:2px;"><rect x="3" y="3" width="18" height="18" rx="4"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></li>
                 <li>វានឹងក្លាយជា App មួយនៅលើទូរស័ព្ទ ងាយស្រួលបើករៀនគ្រប់ពេល</li>
               </ol>
             </div>
 
-            <div style="padding:1rem; background-color:var(--bg-subtle); border-radius:10px; border:1px solid var(--border-color);">
-              <div style="font-weight:700; font-size:0.95rem; color:var(--text-main); margin-bottom:0.5rem; display:flex; align-items:center; gap:0.4rem;">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:#10b981;"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
-                សម្រាប់ទូរស័ព្ទ Android
+            <div style="padding:1.15rem; background-color:var(--bg-subtle); border-radius:12px; border:1px solid var(--border-color);">
+              <div style="font-weight:700; font-size:1rem; color:var(--text-main); margin-bottom:0.75rem; display:flex; align-items:center; gap:0.5rem;">
+                <span style="width:28px; height:28px; border-radius:8px; background:rgba(16,185,129,0.12); border:1px solid rgba(16,185,129,0.25); display:inline-flex; align-items:center; justify-content:center; color:#10b981; box-shadow:0 1px 2px rgba(16,185,129,0.08); flex-shrink:0;">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M6 18c0 .55.45 1 1 1h1v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h2v3.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5V19h1c.55 0 1-.45 1-1V8H6v10zM3.5 8C2.67 8 2 8.67 2 9.5v6c0 .83.67 1.5 1.5 1.5S5 16.33 5 15.5v-6C5 8.67 4.33 8 3.5 8zm17 0c-.83 0-1.5.67-1.5 1.5v6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5v-6c0-.83-.67-1.5-1.5-1.5zm-4.97-4.84l1.3-1.3c.2-.2.2-.51 0-.71-.2-.2-.51-.2-.71 0l-1.48 1.48C13.85 2.23 12.95 2 12 2c-.96 0-1.86.23-2.66.63L7.85 1.15c-.2-.2-.51-.2-.71 0-.2.2-.2.51 0 .71l1.31 1.31C6.97 4.26 5.91 5.97 5.86 8h12.28c-.05-2.03-1.11-3.74-2.61-4.84zM9 6c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm6 0c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+                  </svg>
+                </span>
+                <span>សម្រាប់ទូរស័ព្ទ Android</span>
               </div>
-              <ol style="margin:0; padding-left:1.25rem; font-size:0.88rem; color:var(--text-body); line-height:1.7;">
-                <li>បើកតាមកម្មវិធី <strong>Google Chrome</strong></li>
-                <li>ចុចសញ្ញាចុចបី <strong>(⋮)</strong> នៅជ្រុងខាងស្តាំលើ</li>
-                <li>ជ្រើសយក <strong>«Install app»</strong> ឬ <strong>«Add to Home screen»</strong> (ដំឡើងកម្មវិធី)</li>
+              <ol style="margin:0; padding-left:1.25rem; font-size:0.88rem; color:var(--text-body); line-height:1.75;">
+                <li>បើកតាមកម្មវិធី <strong>Google Chrome</strong> <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:-2px; margin-left:2px;"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="21.17" y1="8" x2="12" y2="8"/><line x1="3.95" y1="6.06" x2="8.54" y2="14"/><line x1="10.88" y1="21.94" x2="15.46" y2="14"/></svg></li>
+                <li>ចុចសញ្ញាចុចបី <strong>(⋮)</strong> នៅជ្រុងខាងស្តាំលើ <svg width="14" height="14" viewBox="0 0 24 24" fill="#10b981" style="display:inline; vertical-align:-2px; margin-left:2px;"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></li>
+                <li>ជ្រើសយក <strong>«Install app»</strong> ឬ <strong>«Add to Home screen»</strong> (ដំឡើងកម្មវិធី) <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="display:inline; vertical-align:-2px; margin-left:2px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></li>
                 <li>កម្មវិធីនឹងដំឡើងចូលក្នុងទូរស័ព្ទ និងដំណើរការបានពេញលេញ</li>
               </ol>
             </div>
