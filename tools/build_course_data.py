@@ -597,6 +597,29 @@ def main(docx_path):
         next_page = toc_pages.get(num + 1)
         page_end = (next_page - 1) if next_page else (page_start + 2)
 
+        # Official TVET Course Outline schedule (Total 45h = 30 sessions, 1 session = 90 min)
+        lesson_timings = {
+            1:  {'sessions': 2, 'sessionRange': 'ពេលទី១ - ពេលទី២', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            2:  {'sessions': 2, 'sessionRange': 'ពេលទី៣ - ពេលទី៤', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            3:  {'sessions': 2, 'sessionRange': 'ពេលទី៥ - ពេលទី៦', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            4:  {'sessions': 2, 'sessionRange': 'ពេលទី៧ - ពេលទី៨', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            5:  {'sessions': 2, 'sessionRange': 'ពេលទី៩ - ពេលទី១០', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            6:  {'sessions': 2, 'sessionRange': 'ពេលទី១១ - ពេលទី១២', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            7:  {'sessions': 2, 'sessionRange': 'ពេលទី១៣ - ពេលទី១៤', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            8:  {'sessions': 2, 'sessionRange': 'ពេលទី១៦ - ពេលទី១៧', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            9:  {'sessions': 2, 'sessionRange': 'ពេលទី១៨ - ពេលទី១៩', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            10: {'sessions': 2, 'sessionRange': 'ពេលទី២០ - ពេលទី២១', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            11: {'sessions': 2, 'sessionRange': 'ពេលទី២២ - ពេលទី២៣', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            12: {'sessions': 1, 'sessionRange': 'ពេលទី២៤', 'hours': 1.5, 'minutes': 90, 'label': '១ ពេល (៩០ នាទី)'},
+            13: {'sessions': 2, 'sessionRange': 'ពេលទី២៥ - ពេលទី២៦', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'},
+            14: {'sessions': 3, 'sessionRange': 'ពេលទី២៧ - ពេលទី២៩', 'hours': 4.5, 'minutes': 270, 'label': '៣ ពេល (៤ ម៉ោង ៣០ នាទី)'},
+            15: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'ឯកសារយោងជំនួយ'},
+            16: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'ឯកសារយោងជំនួយ'},
+            17: {'sessions': 1, 'sessionRange': 'ពេលទី៣០', 'hours': 1.5, 'minutes': 90, 'label': '១ ពេល (៩០ នាទី)'},
+            18: {'sessions': 0, 'sessionRange': None, 'hours': 0, 'minutes': 0, 'label': 'កម្រងចម្លើយផ្លូវការ'},
+        }
+        timing = lesson_timings.get(num, {'sessions': 2, 'sessionRange': '', 'hours': 3, 'minutes': 180, 'label': '២ ពេល (៣ ម៉ោង)'})
+
         lessons.append({
             'id': lesson_id,
             'number': num,
@@ -607,6 +630,11 @@ def main(docx_path):
             'fullTitle': full_title,
             'pageStart': page_start,
             'pageEnd': page_end,
+            'sessions': timing['sessions'],
+            'sessionRange': timing['sessionRange'],
+            'hours': timing['hours'],
+            'durationMinutes': timing['minutes'],
+            'durationLabel': timing['label'],
             'objectives': lb.objectives,
             'sections': lb.sections
         })
@@ -622,7 +650,7 @@ def main(docx_path):
         "coverImage": "images/cover.webp",
         "logoImage": "images/logo.webp",
         "totalLessons": 14,
-        "totalAppendices": 4,
+        "totalAppendices": 3,
         "totalPages": 140
     }
 
@@ -638,12 +666,12 @@ def main(docx_path):
             "និងការសិក្សាស្រាវជ្រាវរបស់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស។\n\n"
             "ឯកសារនេះត្រូវបានរៀបចំឡើងយ៉ាងផ្ចិតផ្ចង់ ដោយប្រមូលផ្ដុំនូវខ្លឹមសារទ្រឹស្ដីគ្រឹះ គោលការណ៍រចនា និងជំហានអនុវត្តជាក់ស្ដែង "
             "អមដោយរូបភាពអេក្រង់ពណ៌ច្បាស់ៗ ដើម្បីឱ្យនិស្សិតងាយស្រួលយល់ និងអាចអនុវត្តតាមបានដោយខ្លួនឯង។ ខ្លឹមសារត្រូវបានរៀបចំយ៉ាងក្បោះក្បាយ "
-            "គ្របដណ្ដប់លើមេរៀនចំនួន ១៤ និងឧបសម្ព័ន្ធសំខាន់ៗចំនួន ៤ រួមមាន ៖\n"
+            "គ្របដណ្ដប់លើមេរៀនចំនួន ១៤ និងឧបសម្ព័ន្ធសំខាន់ៗចំនួន ៣ រួមមាន ៖\n"
             "- មេរៀនទី ១ ដល់ ទី ៤ ៖ ការចាប់ផ្ដើម ស្វែងយល់ផ្ទាំងការងារ ឧបករណ៍ជ្រើសរើស និងការបម្លែងទំហំរូបភាព\n"
             "- មេរៀនទី ៥ ដល់ ទី ៧ ៖ ការគ្រប់គ្រង Layers, ឧបករណ៍ជក់គូរ Brush, ឧបករណ៍សរសេរអក្សរ Type និង Shape Tools\n"
             "- មេរៀនទី ៨ ដល់ ទី ១០ ៖ បច្ចេកទេសកែសម្ផស្សរូបថត Retouching, ការកែពន្លឺពណ៌ Adjustments និង Layer & Clipping Masks\n"
             "- មេរៀនទី ១១ ដល់ ទី ១៤ ៖ តម្រងបែបផែន Filters, ប្រព័ន្ធពណ៌ Color Modes, លំហូរការងារកម្រិតខ្ពស់ និងគម្រោងរចនាជាក់ស្ដែង\n"
-            "- ឧបសម្ព័ន្ធទី ១ ដល់ ទី ៤ ៖ តារាងផ្លូវកាត់ក្តារចុច វចនានុក្រមបច្ចេកទេស វិញ្ញាសាប្រឡងបញ្ចប់វគ្គ (២៥ សំណួរ) និងកម្រងចម្លើយផ្លូវការ\n\n"
+            "- ឧបសម្ព័ន្ធទី ១ ដល់ ទី ៣ ៖ តារាងផ្លូវកាត់ក្តារចុច វចនានុក្រមបច្ចេកទេសក្រាហ្វិក និងកម្រងចម្លើយផ្លូវការ\n\n"
             "ទោះបីជាអ្នករៀបចំបានខិតខំប្រឹងប្រែងយ៉ាងណាក្តី ក៏ឯកសារនេះប្រហែលជានៅមានការខ្វះខាតដោយអចេតនា។ "
             "អ្នករៀបចំរីករាយទទួលយកនូវរាល់មតិរិះគន់ប្រកបដោយស្ថាបនាពីសំណាក់សាស្ត្រាចារ្យ និងនិស្សិតទាំងអស់ ដើម្បីបន្តកែលម្អឯកសារនេះឱ្យកាន់តែល្អប្រសើរឡើងបន្ថែមទៀត។"
         ),
@@ -673,7 +701,20 @@ def main(docx_path):
             "- រៀបចំអត្ថបទខ្មែរ-អង់គ្លេសប្រកបដោយសោភ័ណភាព (Character/Paragraph Panels) និងការគូររូបរាងធរណីមាត្រ Vector Shapes\n"
             "- អនុវត្តបច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Retouching) ដោយ Spot Healing Brush, Clone Stamp និង Content-Aware Fill\n"
             "- កែសម្រួលពន្លឺ-ពណ៌ (Adjustment Layers) និងការច្របាច់បញ្ចូលរូបភាពច្នៃប្រឌិតដោយ Layer Mask & Clipping Mask\n"
-            "- អនុវត្តតម្រងបែបផែន (Filters, Layer Styles), ប្រព័ន្ធពណ៌ RGB/CMYK និងគម្រោងរចនាក្រាហ្វិកពាណិជ្ជកម្មជាក់ស្ដែង"
+            "- អនុវត្តតម្រងបែបផែន (Filters, Layer Styles), ប្រព័ន្ធពណ៌ RGB/CMYK និងគម្រោងរចនាក្រាហ្វិកពាណិជ្ជកម្មជាក់ស្ដែង\n\n"
+            "## ៣. រយៈពេលសិក្សា និងកាលវិភាគមុខវិជ្ជា (Course Schedule - 45 Hours)\n\n"
+            "មុខវិជ្ជានេះមានរយៈពេលសិក្សាសរុប **៤៥ ម៉ោង** ស្មើនឹង **៣០ ពេល** (ក្នុង ១ពេល គិត **៩០ នាទី**) ដោយបែងចែកតាមគ្រោងប្លង់មេរៀន (Course Outline) ដូចខាងក្រោម ៖\n"
+            "- **មេរៀនទី ១ ដល់ ទី ៧ ៖** ចំនួន ៧ មេរៀន (១៤ ពេល = ២១ ម៉ោង) — ទ្រឹស្ដីគ្រឹះ និងការអនុវត្តជាក់ស្ដែងមូលដ្ឋាន\n"
+            "- **ពេលទី ១៥ ៖** តេស្តវាយតម្លៃសមត្ថភាពពាក់កណ្ដាលឆមាស Midterm Practical Assessment (១ ពេល = ៩០ នាទី)\n"
+            "- **មេរៀនទី ៨ ដល់ ទី ១៣ ៖** ចំនួន ៦ មេរៀន (១១ ពេល = ១៦ ម៉ោង ៣០ នាទី) — បច្ចេកទេសកម្រិតមធ្យម និងខ្ពស់\n"
+            "- **មេរៀនទី ១៤ ៖** ចំនួន ៣ ពេល (៤ ម៉ោង ៣០ នាទី) — គម្រោងអនុវត្តរចនាជាក់ស្ដែងលើបណ្ដាញសង្គម និងការងារបោះពុម្ព\n"
+            "- **ពេលទី ៣០ ៖** តេស្តវាយតម្លៃសមត្ថភាពបញ្ចប់មុខវិជ្ជា Final Examination (១ ពេល = ៩០ នាទី)\n\n"
+            "## ៤. គោលការណ៍វាយតម្លៃលទ្ធផលសិក្សា (Assessment Criteria)\n\n"
+            "- **ក. ការងារជាក្រុម (Teamwork) ៖** ១០%\n"
+            "- **ខ. វត្តមាន និងការចូលរួម (Attendance & Participation) ៖** ១៥%\n"
+            "- **គ. កិច្ចការស្រាវជ្រាវ (Assignments) ៖** ១៥%\n"
+            "- **ឃ. ប្រឡងពាក់កណ្ដាលឆមាស (Midterm Exam) ៖** ២០%\n"
+            "- **ង. ប្រឡងបញ្ចប់ឆមាស (Final Exam) ៖** ៤០%"
         )
     }
 

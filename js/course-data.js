@@ -11,12 +11,12 @@ window.COURSE_DATA = {
     "coverImage": "images/cover.webp",
     "logoImage": "images/logo.webp",
     "totalLessons": 14,
-    "totalAppendices": 4,
+    "totalAppendices": 3,
     "totalPages": 140
   },
   "preface": {
     "title": "អារម្ភកថា",
-    "content": "ក្នុងយុគសម័យបច្ចេកវិទ្យាឌីជីថល និងបដិវត្តឧស្សាហកម្ម ៤.០ វិស័យរចនាក្រាហ្វិក និងសារគមនាគមន៍រូបភាព (Visual Communication) បានដើរតួនាទីយ៉ាងសំខាន់មិនអាចខ្វះបានក្នុងគ្រប់វិស័យ រាប់ចាប់តាំងពីការផ្សព្វផ្សាយពាណិជ្ជកម្ម ការរចនាមាតិកាលើបណ្ដាញសង្គម ការបោះពុម្ព រហូតដល់ការរចនាគេហទំព័រ និងកម្មវិធីទូរស័ព្ទ។\n\nដើម្បីឆ្លើយតបទៅនឹងតម្រូវការទីផ្សារការងារ និងការបណ្ដុះបណ្ដាលធនធានមនុស្សប្រកបដោយគុណវុឌ្ឍិ វិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប បានរៀបចំឯកសារមេរៀន «ការរចនាក្រាហ្វិក និងកាត់តរូបភាព (Basic Adobe Photoshop 2022)» សម្រាប់ជាជំនួយដល់ការបង្រៀនរបស់សាស្ត្រាចារ្យ និងការសិក្សាស្រាវជ្រាវរបស់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស។\n\nឯកសារនេះត្រូវបានរៀបចំឡើងយ៉ាងផ្ចិតផ្ចង់ ដោយប្រមូលផ្ដុំនូវខ្លឹមសារទ្រឹស្ដីគ្រឹះ គោលការណ៍រចនា និងជំហានអនុវត្តជាក់ស្ដែង អមដោយរូបភាពអេក្រង់ពណ៌ច្បាស់ៗ ដើម្បីឱ្យនិស្សិតងាយស្រួលយល់ និងអាចអនុវត្តតាមបានដោយខ្លួនឯង។ ខ្លឹមសារត្រូវបានរៀបចំយ៉ាងក្បោះក្បាយ គ្របដណ្ដប់លើមេរៀនចំនួន ១៤ និងឧបសម្ព័ន្ធសំខាន់ៗចំនួន ៤ រួមមាន ៖\n- មេរៀនទី ១ ដល់ ទី ៤ ៖ ការចាប់ផ្ដើម ស្វែងយល់ផ្ទាំងការងារ ឧបករណ៍ជ្រើសរើស និងការបម្លែងទំហំរូបភាព\n- មេរៀនទី ៥ ដល់ ទី ៧ ៖ ការគ្រប់គ្រង Layers, ឧបករណ៍ជក់គូរ Brush, ឧបករណ៍សរសេរអក្សរ Type និង Shape Tools\n- មេរៀនទី ៨ ដល់ ទី ១០ ៖ បច្ចេកទេសកែសម្ផស្សរូបថត Retouching, ការកែពន្លឺពណ៌ Adjustments និង Layer & Clipping Masks\n- មេរៀនទី ១១ ដល់ ទី ១៤ ៖ តម្រងបែបផែន Filters, ប្រព័ន្ធពណ៌ Color Modes, លំហូរការងារកម្រិតខ្ពស់ និងគម្រោងរចនាជាក់ស្ដែង\n- ឧបសម្ព័ន្ធទី ១ ដល់ ទី ៤ ៖ តារាងផ្លូវកាត់ក្តារចុច វចនានុក្រមបច្ចេកទេស វិញ្ញាសាប្រឡងបញ្ចប់វគ្គ (២៥ សំណួរ) និងកម្រងចម្លើយផ្លូវការ\n\nទោះបីជាអ្នករៀបចំបានខិតខំប្រឹងប្រែងយ៉ាងណាក្តី ក៏ឯកសារនេះប្រហែលជានៅមានការខ្វះខាតដោយអចេតនា។ អ្នករៀបចំរីករាយទទួលយកនូវរាល់មតិរិះគន់ប្រកបដោយស្ថាបនាពីសំណាក់សាស្ត្រាចារ្យ និងនិស្សិតទាំងអស់ ដើម្បីបន្តកែលម្អឯកសារនេះឱ្យកាន់តែល្អប្រសើរឡើងបន្ថែមទៀត។",
+    "content": "ក្នុងយុគសម័យបច្ចេកវិទ្យាឌីជីថល និងបដិវត្តឧស្សាហកម្ម ៤.០ វិស័យរចនាក្រាហ្វិក និងសារគមនាគមន៍រូបភាព (Visual Communication) បានដើរតួនាទីយ៉ាងសំខាន់មិនអាចខ្វះបានក្នុងគ្រប់វិស័យ រាប់ចាប់តាំងពីការផ្សព្វផ្សាយពាណិជ្ជកម្ម ការរចនាមាតិកាលើបណ្ដាញសង្គម ការបោះពុម្ព រហូតដល់ការរចនាគេហទំព័រ និងកម្មវិធីទូរស័ព្ទ។\n\nដើម្បីឆ្លើយតបទៅនឹងតម្រូវការទីផ្សារការងារ និងការបណ្ដុះបណ្ដាលធនធានមនុស្សប្រកបដោយគុណវុឌ្ឍិ វិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប បានរៀបចំឯកសារមេរៀន «ការរចនាក្រាហ្វិក និងកាត់តរូបភាព (Basic Adobe Photoshop 2022)» សម្រាប់ជាជំនួយដល់ការបង្រៀនរបស់សាស្ត្រាចារ្យ និងការសិក្សាស្រាវជ្រាវរបស់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស។\n\nឯកសារនេះត្រូវបានរៀបចំឡើងយ៉ាងផ្ចិតផ្ចង់ ដោយប្រមូលផ្ដុំនូវខ្លឹមសារទ្រឹស្ដីគ្រឹះ គោលការណ៍រចនា និងជំហានអនុវត្តជាក់ស្ដែង អមដោយរូបភាពអេក្រង់ពណ៌ច្បាស់ៗ ដើម្បីឱ្យនិស្សិតងាយស្រួលយល់ និងអាចអនុវត្តតាមបានដោយខ្លួនឯង។ ខ្លឹមសារត្រូវបានរៀបចំយ៉ាងក្បោះក្បាយ គ្របដណ្ដប់លើមេរៀនចំនួន ១៤ និងឧបសម្ព័ន្ធសំខាន់ៗចំនួន ៣ រួមមាន ៖\n- មេរៀនទី ១ ដល់ ទី ៤ ៖ ការចាប់ផ្ដើម ស្វែងយល់ផ្ទាំងការងារ ឧបករណ៍ជ្រើសរើស និងការបម្លែងទំហំរូបភាព\n- មេរៀនទី ៥ ដល់ ទី ៧ ៖ ការគ្រប់គ្រង Layers, ឧបករណ៍ជក់គូរ Brush, ឧបករណ៍សរសេរអក្សរ Type និង Shape Tools\n- មេរៀនទី ៨ ដល់ ទី ១០ ៖ បច្ចេកទេសកែសម្ផស្សរូបថត Retouching, ការកែពន្លឺពណ៌ Adjustments និង Layer & Clipping Masks\n- មេរៀនទី ១១ ដល់ ទី ១៤ ៖ តម្រងបែបផែន Filters, ប្រព័ន្ធពណ៌ Color Modes, លំហូរការងារកម្រិតខ្ពស់ និងគម្រោងរចនាជាក់ស្ដែង\n- ឧបសម្ព័ន្ធទី ១ ដល់ ទី ៣ ៖ តារាងផ្លូវកាត់ក្តារចុច វចនានុក្រមបច្ចេកទេសក្រាហ្វិក និងកម្រងចម្លើយផ្លូវការ\n\nទោះបីជាអ្នករៀបចំបានខិតខំប្រឹងប្រែងយ៉ាងណាក្តី ក៏ឯកសារនេះប្រហែលជានៅមានការខ្វះខាតដោយអចេតនា។ អ្នករៀបចំរីករាយទទួលយកនូវរាល់មតិរិះគន់ប្រកបដោយស្ថាបនាពីសំណាក់សាស្ត្រាចារ្យ និងនិស្សិតទាំងអស់ ដើម្បីបន្តកែលម្អឯកសារនេះឱ្យកាន់តែល្អប្រសើរឡើងបន្ថែមទៀត។",
     "signOff": {
       "location": "សៀមរាប",
       "date": "ឆ្នាំ២០២៦",
@@ -26,7 +26,7 @@ window.COURSE_DATA = {
   },
   "courseIntro": {
     "title": "សេចក្តីផ្តើមនៃមុខវិជ្ជា",
-    "content": "## ១. ការពិពណ៌នាអំពីមុខវិជ្ជា (Course Description)\n\nមុខវិជ្ជា **ការរចនាក្រាហ្វិក និងកាត់តរូបភាពជាមួយ Adobe Photoshop 2022 (Basic Adobe Photoshop 2022)** ត្រូវបានរៀបចំឡើងជាពិសេសសម្រាប់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស (Higher Technical Diploma) នៃវិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប (RPITSSR)។ មុខវិជ្ជានេះផ្ដល់នូវមូលដ្ឋានគ្រឹះដ៏រឹងមាំ និងជំនាញអនុវត្តជាក់ស្ដែង លើការកែច្នៃ ការកាត់ត និងការរចនារូបភាពឌីជីថលបែបអាជីព ដោយផ្តោតលើរយៈពេលសិក្សាសរុប ៤៥ ម៉ោង។\n\n## ២. គោលដៅនៃមុខវិជ្ជា (Course Learning Outcomes)\n\nក្រោយពេលបញ្ចប់ការសិក្សាមុខវិជ្ជានេះចប់ជាស្ថាពរ សិស្ស-និស្សិតនឹងមានសមត្ថភាព ៖\n- យល់ដឹងច្បាស់ពីចំណុចប្រទាក់ការងារ Workspace, Tools Panel, Options Bar, Panels និងការប្រើប្រាស់ Shortcuts ជំនាញ\n- បង្កើត និងរៀបចំផ្ទាំងការងារ (Canvas) ត្រឹមត្រូវតាមខ្នាត និង Resolution ទាំងសម្រាប់ឌីជីថល (72 DPI) និងបោះពុម្ព (300 DPI)\n- ស្ទាត់ជំនាញលើការប្រើប្រាស់ឧបករណ៍ជ្រើសរើស (Marquee, Lasso, AI Object Selection, Select Subject) និង Select and Mask\n- យល់ដឹងស៊ីជម្រៅពីការគ្រប់គ្រង Layers (Groups, Blending Modes, Opacity/Fill) និងឧបករណ៍គូរជក់ Brush/Painting Tools\n- រៀបចំអត្ថបទខ្មែរ-អង់គ្លេសប្រកបដោយសោភ័ណភាព (Character/Paragraph Panels) និងការគូររូបរាងធរណីមាត្រ Vector Shapes\n- អនុវត្តបច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Retouching) ដោយ Spot Healing Brush, Clone Stamp និង Content-Aware Fill\n- កែសម្រួលពន្លឺ-ពណ៌ (Adjustment Layers) និងការច្របាច់បញ្ចូលរូបភាពច្នៃប្រឌិតដោយ Layer Mask & Clipping Mask\n- អនុវត្តតម្រងបែបផែន (Filters, Layer Styles), ប្រព័ន្ធពណ៌ RGB/CMYK និងគម្រោងរចនាក្រាហ្វិកពាណិជ្ជកម្មជាក់ស្ដែង"
+    "content": "## ១. ការពិពណ៌នាអំពីមុខវិជ្ជា (Course Description)\n\nមុខវិជ្ជា **ការរចនាក្រាហ្វិក និងកាត់តរូបភាពជាមួយ Adobe Photoshop 2022 (Basic Adobe Photoshop 2022)** ត្រូវបានរៀបចំឡើងជាពិសេសសម្រាប់និស្សិតដេប៉ាតឺម៉ង់ព័ត៌មានវិទ្យា កម្រិតសញ្ញាបត្រជាន់ខ្ពស់បច្ចេកទេស (Higher Technical Diploma) នៃវិទ្យាស្ថានពហុបច្ចេកទេសភូមិភាគតេជោសែនសៀមរាប (RPITSSR)។ មុខវិជ្ជានេះផ្ដល់នូវមូលដ្ឋានគ្រឹះដ៏រឹងមាំ និងជំនាញអនុវត្តជាក់ស្ដែង លើការកែច្នៃ ការកាត់ត និងការរចនារូបភាពឌីជីថលបែបអាជីព ដោយផ្តោតលើរយៈពេលសិក្សាសរុប ៤៥ ម៉ោង។\n\n## ២. គោលដៅនៃមុខវិជ្ជា (Course Learning Outcomes)\n\nក្រោយពេលបញ្ចប់ការសិក្សាមុខវិជ្ជានេះចប់ជាស្ថាពរ សិស្ស-និស្សិតនឹងមានសមត្ថភាព ៖\n- យល់ដឹងច្បាស់ពីចំណុចប្រទាក់ការងារ Workspace, Tools Panel, Options Bar, Panels និងការប្រើប្រាស់ Shortcuts ជំនាញ\n- បង្កើត និងរៀបចំផ្ទាំងការងារ (Canvas) ត្រឹមត្រូវតាមខ្នាត និង Resolution ទាំងសម្រាប់ឌីជីថល (72 DPI) និងបោះពុម្ព (300 DPI)\n- ស្ទាត់ជំនាញលើការប្រើប្រាស់ឧបករណ៍ជ្រើសរើស (Marquee, Lasso, AI Object Selection, Select Subject) និង Select and Mask\n- យល់ដឹងស៊ីជម្រៅពីការគ្រប់គ្រង Layers (Groups, Blending Modes, Opacity/Fill) និងឧបករណ៍គូរជក់ Brush/Painting Tools\n- រៀបចំអត្ថបទខ្មែរ-អង់គ្លេសប្រកបដោយសោភ័ណភាព (Character/Paragraph Panels) និងការគូររូបរាងធរណីមាត្រ Vector Shapes\n- អនុវត្តបច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Retouching) ដោយ Spot Healing Brush, Clone Stamp និង Content-Aware Fill\n- កែសម្រួលពន្លឺ-ពណ៌ (Adjustment Layers) និងការច្របាច់បញ្ចូលរូបភាពច្នៃប្រឌិតដោយ Layer Mask & Clipping Mask\n- អនុវត្តតម្រងបែបផែន (Filters, Layer Styles), ប្រព័ន្ធពណ៌ RGB/CMYK និងគម្រោងរចនាក្រាហ្វិកពាណិជ្ជកម្មជាក់ស្ដែង\n\n## ៣. រយៈពេលសិក្សា និងកាលវិភាគមុខវិជ្ជា (Course Schedule - 45 Hours)\n\nមុខវិជ្ជានេះមានរយៈពេលសិក្សាសរុប **៤៥ ម៉ោង** ស្មើនឹង **៣០ ពេល** (ក្នុង ១ពេល គិត **៩០ នាទី**) ដោយបែងចែកតាមគ្រោងប្លង់មេរៀន (Course Outline) ដូចខាងក្រោម ៖\n- **មេរៀនទី ១ ដល់ ទី ៧ ៖** ចំនួន ៧ មេរៀន (១៤ ពេល = ២១ ម៉ោង) — ទ្រឹស្ដីគ្រឹះ និងការអនុវត្តជាក់ស្ដែងមូលដ្ឋាន\n- **ពេលទី ១៥ ៖** តេស្តវាយតម្លៃសមត្ថភាពពាក់កណ្ដាលឆមាស Midterm Practical Assessment (១ ពេល = ៩០ នាទី)\n- **មេរៀនទី ៨ ដល់ ទី ១៣ ៖** ចំនួន ៦ មេរៀន (១១ ពេល = ១៦ ម៉ោង ៣០ នាទី) — បច្ចេកទេសកម្រិតមធ្យម និងខ្ពស់\n- **មេរៀនទី ១៤ ៖** ចំនួន ៣ ពេល (៤ ម៉ោង ៣០ នាទី) — គម្រោងអនុវត្តរចនាជាក់ស្ដែងលើបណ្ដាញសង្គម និងការងារបោះពុម្ព\n- **ពេលទី ៣០ ៖** តេស្តវាយតម្លៃសមត្ថភាពបញ្ចប់មុខវិជ្ជា Final Examination (១ ពេល = ៩០ នាទី)\n\n## ៤. គោលការណ៍វាយតម្លៃលទ្ធផលសិក្សា (Assessment Criteria)\n\n- **ក. ការងារជាក្រុម (Teamwork) ៖** ១០%\n- **ខ. វត្តមាន និងការចូលរួម (Attendance & Participation) ៖** ១៥%\n- **គ. កិច្ចការស្រាវជ្រាវ (Assignments) ៖** ១៥%\n- **ឃ. ប្រឡងពាក់កណ្ដាលឆមាស (Midterm Exam) ៖** ២០%\n- **ង. ប្រឡងបញ្ចប់ឆមាស (Final Exam) ៖** ៤០%"
   },
   "lessons": [
     {
@@ -39,6 +39,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១ ៖ ការចាប់ផ្ដើមជាមួយ Adobe Photoshop 2022 (Getting Started with Adobe Photoshop 2022)",
       "pageStart": 7,
       "pageEnd": 17,
+      "sessions": 2,
+      "sessionRange": "ពេលទី១ - ពេលទី២",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្គាល់ប្រវត្តិ និងតួនាទីស្នូលរបស់កម្មវិធី Adobe Photoshop 2022 ក្នុងវិស័យរចនាក្រាហ្វិកឌីជីថល",
         "យល់ដឹងច្បាស់ពីសមាសភាគផ្ទាំងចំណុចប្រទាក់ទូទៅ (Menu Bar, Options Bar, Tools Panel, Panels/Dock)",
@@ -446,6 +451,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ២ ៖ ផ្ទាំងការងារ និងឧបករណ៍ក្នុងកម្មវិធី Adobe Photoshop 2022 (Photoshop Tools & Workspace)",
       "pageStart": 18,
       "pageEnd": 27,
+      "sessions": 2,
+      "sessionRange": "ពេលទី៣ - ពេលទី៤",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងច្បាស់អំពីសមាសភាគនៃផ្ទាំងការងាររួម (Photoshop Workspace) និងរបៀបរៀបចំឱ្យស្របតាម តម្រូវការការងារ",
         "ស្គាល់តួនាទីស្នូល និងមុខងាររបស់របារ Menu Bar និងរបារជម្រើសឧបករណ៍ Options Bar",
@@ -904,6 +914,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៣ ៖ ឧបករណ៍ជ្រើសរើសក្នុងកម្មវិធី Adobe Photoshop 2022 (Selection Tools)",
       "pageStart": 28,
       "pageEnd": 34,
+      "sessions": 2,
+      "sessionRange": "ពេលទី៥ - ពេលទី៦",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ច្បាស់ពីគោលការណ៍គ្រឹះនៃការជ្រើសរើស (Selections) និងភាពខុសគ្នារវាងឧបករណ៍ជ្រើសរើស នីមួយៗ",
         "ចេះប្រើប្រាស់ក្រុម Marquee Tools (រាងចតុកោណកែង និងពងក្រពើ) និងក្រុម Lasso Tools ដោយ ស្ទាត់ជំនាញ",
@@ -1269,6 +1284,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៤ ៖ ការកាត់តម្រឹម និងបម្លែងទំហំរូបភាព (Image Cropping and Transforming)",
       "pageStart": 35,
       "pageEnd": 42,
+      "sessions": 2,
+      "sessionRange": "ពេលទី៧ - ពេលទី៨",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ចេះប្រើប្រាស់ Crop Tool ដើម្បីកាត់តម្រឹមទំហំរូបភាព និងកំណត់សមាមាត្ររូបភាព (Aspect Ratio)",
         "យល់ដឹងពីមុខងារ Straighten Tool ដើម្បីតម្រង់រូបភាពដែលទ្រេតឱ្យត្រង់កម្រិតផ្តេក ឬបញ្ឈរ",
@@ -1592,6 +1612,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៥ ៖ ការយល់ដឹង និងការគ្រប់គ្រង Layers (Understanding & Managing Layers)",
       "pageStart": 43,
       "pageEnd": 50,
+      "sessions": 2,
+      "sessionRange": "ពេលទី៩ - ពេលទី១០",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងស៊ីជម្រៅអំពីគំនិតគ្រឹះនៃ Layers (ស្រទាប់ការងារ) និងសារៈសំខាន់ក្នុងការរចនាក្រាហ្វិកមិនបំផ្លាញ រូបដើម",
         "ចេះបង្កើត លុប ចម្លងស្ទួន ប្តូរឈ្មោះ និងផ្លាស់ប្តូរលំដាប់លើក្រោមនៃ Layers",
@@ -1967,6 +1992,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៦ ៖ ឧបករណ៍ជក់គូរ ជ័រលុប និងការចាក់ពណ៌ (Brush, Eraser & Painting Tools)",
       "pageStart": 51,
       "pageEnd": 56,
+      "sessions": 2,
+      "sessionRange": "ពេលទី១១ - ពេលទី១២",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Brush Tool និងការកំណត់ទំហំ (Size) កម្រិតរឹង-ទន់ (Hardness)",
         "យល់ដឹងច្បាស់ពីភាពខុសគ្នារវាង Opacity (កម្រិតភាពច្បាស់) និង Flow (ល្បឿនហូរនៃទឹកថ្នាំ)",
@@ -2328,6 +2358,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៧ ៖ ឧបករណ៍អត្ថបទ និងរូបរាងធរណីមាត្រ (Text and Shape Tools)",
       "pageStart": 57,
       "pageEnd": 62,
+      "sessions": 2,
+      "sessionRange": "ពេលទី១៣ - ពេលទី១៤",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Type Tool ដើម្បីបញ្ចូលអក្សរខ្មែរយូនីកូដ និងអក្សរអង់គ្លេសបានត្រឹមត្រូវ",
         "យល់ដឹងច្បាស់ពីការកំណត់តួអក្សរលើ Character Panel (Font, Size, Tracking, Leading, Kerning)",
@@ -2691,6 +2726,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៨ ៖ បច្ចេកទេសកាត់តកែសម្ផស្សរូបថត (Photo Retouching)",
       "pageStart": 63,
       "pageEnd": 68,
+      "sessions": 2,
+      "sessionRange": "ពេលទី១៦ - ពេលទី១៧",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Spot Healing Brush Tool ដើម្បីលុបមុន និងស្នាមជាំលើផ្ទៃមុខ ដោយស្វ័យប្រវត្តិ",
         "ចេះប្រើប្រាស់ Healing Brush Tool និង Patch Tool សម្រាប់ជួសជុលផ្ទៃស្បែកធំៗដោយកំណត់គំរូ Sample",
@@ -3044,6 +3084,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ៩ ៖ ការកែសម្រួលពន្លឺ និងពណ៌រូបភាព (Color & Image Adjustments)",
       "pageStart": 69,
       "pageEnd": 76,
+      "sessions": 2,
+      "sessionRange": "ពេលទី១៨ - ពេលទី១៩",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងពីភាពខុសគ្នារវាង Direct Adjustments (Image > Adjustments) និង Adjustment Layers មិនបំផ្លាញរូបដើម",
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ Levels (Ctrl + L) និងការអានក្រាហ្វ Histogram នៃពន្លឺ",
@@ -3368,6 +3413,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១០ ៖ របាំងស្រទាប់ និងរបាំងខ្ទាស់ (Layer Mask & Clipping Mask)",
       "pageStart": 77,
       "pageEnd": 83,
+      "sessions": 2,
+      "sessionRange": "ពេលទី២០ - ពេលទី២១",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងស៊ីជម្រៅអំពីគោលការណ៍គ្រឹះនៃ Layer Mask ពណ៌ស (បង្ហាញ) និងពណ៌ខ្មៅ (លាក់)",
         "ចេះប្រើប្រាស់ Brush Tool ជាមួយ Layer Mask ដើម្បីកាត់ និងលាយបញ្ចូលរូបភាពប្រកបដោយភាពបត់បែន",
@@ -3704,6 +3754,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១១ ៖ តម្រងបែបផែន និងស្ទីលស្រទាប់ (Filters, Effects & Layer Styles)",
       "pageStart": 84,
       "pageEnd": 90,
+      "sessions": 2,
+      "sessionRange": "ពេលទី២២ - ពេលទី២៣",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងពីប្រព័ន្ធម៉ឺនុយ Filters និងភាពខុសគ្នារវាង Standard Filters និង Smart Filters",
         "ស្ទាត់ជំនាញក្នុងការប្រើប្រាស់ក្រុម Blur Filters (Gaussian Blur, Motion Blur, Radial Blur)",
@@ -4019,6 +4074,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១២ ៖ ប្រព័ន្ធពណ៌ និងកម្រិតភាពច្បាស់រូបភាព (Color Modes & Resolution)",
       "pageStart": 91,
       "pageEnd": 96,
+      "sessions": 1,
+      "sessionRange": "ពេលទី២៤",
+      "hours": 1.5,
+      "durationMinutes": 90,
+      "durationLabel": "១ ពេល (៩០ នាទី)",
       "objectives": [
         "យល់ដឹងច្បាស់ពីភាពខុសគ្នារវាងប្រព័ន្ធពណ៌ RGB (អេក្រង់) និង CMYK (បោះពុម្ព)",
         "យល់ដឹងអំពី Grayscale, Index Color, និង Bit Depth (8-bit, 16-bit, 32-bit)",
@@ -4326,6 +4386,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១៣ ៖ បច្ចេកទេសបន្ថែម និងលំហូរការងារកម្រិតខ្ពស់ (Advanced Techniques & Workflow)",
       "pageStart": 97,
       "pageEnd": 102,
+      "sessions": 2,
+      "sessionRange": "ពេលទី២៥ - ពេលទី២៦",
+      "hours": 3,
+      "durationMinutes": 180,
+      "durationLabel": "២ ពេល (៣ ម៉ោង)",
       "objectives": [
         "យល់ដឹងស៊ីជម្រៅអំពី Smart Objects និងគុណសម្បត្តិក្នុងការការពារគុណភាពរូបភាពពេលពង្រីក-បង្រួម",
         "ស្ទាត់ជំនាញលើបច្ចេកទេសបម្លែងកម្រិតខ្ពស់ Perspective Warp និង Puppet Warp សម្រាប់ចលនារូបភាព",
@@ -4621,6 +4686,11 @@ window.COURSE_DATA = {
       "fullTitle": "មេរៀនទី ១៤ ៖ គម្រោងអនុវត្តការរចនាក្រាហ្វិកជាក់ស្ដែង (Practical Design Projects)",
       "pageStart": 103,
       "pageEnd": 120,
+      "sessions": 3,
+      "sessionRange": "ពេលទី២៧ - ពេលទី២៩",
+      "hours": 4.5,
+      "durationMinutes": 270,
+      "durationLabel": "៣ ពេល (៤ ម៉ោង ៣០ នាទី)",
       "objectives": [
         "អនុវត្តចំណេះដឹងទ្រឹស្ដី និងឧបករណ៍ទាំងអស់ដែលបានរៀនពីមេរៀនទី ១ ដល់ទី ១៤ ទៅក្នុងការងាររចនា ជាក់ស្តែង",
         "ស្ទាត់ជំនាញលើការបង្កើតគម្រោងផ្សាយពាណិជ្ជកម្មពិតប្រាកដចំនួន ១០ ប្រភេទផ្សេងៗគ្នា",
@@ -5567,6 +5637,11 @@ window.COURSE_DATA = {
       "fullTitle": "ឧបសម្ព័ន្ធទី ១ ៖ តារាងផ្លូវកាត់ក្តារចុច (Keyboard Shortcuts Reference)",
       "pageStart": 121,
       "pageEnd": 125,
+      "sessions": 0,
+      "sessionRange": null,
+      "hours": 0,
+      "durationMinutes": 0,
+      "durationLabel": "ឯកសារយោងជំនួយ",
       "objectives": [],
       "sections": [
         {
@@ -6018,6 +6093,11 @@ window.COURSE_DATA = {
       "fullTitle": "ឧបសម្ព័ន្ធទី ២ ៖ វចនានុក្រមបច្ចេកទេសក្រាហ្វិក អង់គ្លេស-ខ្មែរ (Technical Glossary)",
       "pageStart": 126,
       "pageEnd": 132,
+      "sessions": 0,
+      "sessionRange": null,
+      "hours": 0,
+      "durationMinutes": 0,
+      "durationLabel": "ឯកសារយោងជំនួយ",
       "objectives": [],
       "sections": [
         {
@@ -6452,10 +6532,15 @@ window.COURSE_DATA = {
       "isAppendix": true,
       "appendixNum": 3,
       "label": "ឧបសម្ព័ន្ធទី ៣",
-      "title": "វិញ្ញាសាប្រឡងទ្រឹស្ដីបញ្ចប់វគ្គ (Final Comprehensive Exam)",
-      "fullTitle": "ឧបសម្ព័ន្ធទី ៣ ៖ វិញ្ញាសាប្រឡងទ្រឹស្ដីបញ្ចប់វគ្គ (Final Comprehensive Exam)",
+      "title": "កម្រងចម្លើយផ្លូវការ (Official Answer Key)",
+      "fullTitle": "ឧបសម្ព័ន្ធទី ៣ ៖ កម្រងចម្លើយផ្លូវការ (Official Answer Key)",
       "pageStart": 133,
       "pageEnd": 137,
+      "sessions": 1,
+      "sessionRange": "ពេលទី៣០",
+      "hours": 1.5,
+      "durationMinutes": 90,
+      "durationLabel": "១ ពេល (៩០ នាទី)",
       "objectives": [],
       "sections": [
         {
@@ -6464,862 +6549,7 @@ window.COURSE_DATA = {
             {
               "type": "callout",
               "kind": "tip",
-              "text": "វិញ្ញាសាប្រឡងទ្រឹស្ដីបញ្ចប់វគ្គសិក្សាមូលដ្ឋាន Adobe Photoshop 2022 មានចំនួន ២៥ សំណួរពហុជ្រើសរើស (MCQs) ដែលគ្របដណ្តប់លើរាល់ខ្លឹមសារទាំងអស់ចាប់ពីមេរៀនទី ១ ដល់ទី ១៥ (ពិន្ទុសរុប ៥០ ពិន្ទុ រយៈពេលប្រឡង ៦០ នាទី) ៖"
-            },
-            {
-              "type": "quiz",
-              "title": "សំណួរវិញ្ញាសាប្រឡងទ្រឹស្ដីបញ្ចប់វគ្គ (២៥ សំណួរ)",
-              "isExam": true,
-              "questions": [
-                {
-                  "number": 1,
-                  "numberKh": "១",
-                  "question": "តើកម្មវិធី Adobe Photoshop 2022 ត្រូវបានបង្កើតឡើងជាចម្បងសម្រាប់ធ្វើការលើប្រភេទក្រាហ្វិកអ្វី?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Vector Graphics"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Raster / Pixel Graphics"
-                    },
-                    {
-                      "key": "C",
-                      "text": "3D Animation Only"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Audio Editing"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Raster/Pixel"
-                },
-                {
-                  "number": 2,
-                  "numberKh": "២",
-                  "question": "តើគ្រាប់ចុចកាត់ណាមួយប្រើសម្រាប់បង្កើតផ្ទាំងការងារថ្មី (New Document)?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Ctrl + O"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Ctrl + N"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl + S"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Ctrl + Shift + N"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Ctrl + N"
-                },
-                {
-                  "number": 3,
-                  "numberKh": "៣",
-                  "question": "តើរបារណាដែលបង្ហាញជម្រើសកំណត់លម្អិតដែលផ្លាស់ប្តូរតាមឧបករណ៍ដែលកំពុងជ្រើសរើស?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Menu Bar"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Title Bar"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Options Bar"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Status Bar"
-                    }
-                  ],
-                  "answer": "C",
-                  "answerNote": "Options Bar"
-                },
-                {
-                  "number": 4,
-                  "numberKh": "៤",
-                  "question": "តើគ្រាប់ចុចកាត់ Spacebar (សង្កត់ជាប់) ប្រើសម្រាប់អ្វីខណៈពេលកំពុងប្រើឧបករណ៍ផ្សេង?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "លុបរូបភាព"
-                    },
-                    {
-                      "key": "B",
-                      "text": "ប្តូរទៅជា Hand Tool បណ្តោះអាសន្នដើម្បីរំកិលផ្ទាំងការងារ"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Zoom In"
-                    },
-                    {
-                      "key": "D",
-                      "text": "ប្តូរពណ៌ទៅជាស"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Hand Tool"
-                },
-                {
-                  "number": 5,
-                  "numberKh": "៥",
-                  "question": "តើឧបករណ៍ជ្រើសរើសណាដែលប្រើបច្ចេកវិទ្យា AI ស្វែងរកវត្ថុដោយគ្រាន់តែដាក់ Mouse ពីលើ (Hover)?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Lasso Tool"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Magic Wand Tool"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Object Selection Tool"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Polygonal Lasso Tool"
-                    }
-                  ],
-                  "answer": "C",
-                  "answerNote": "Object Selection"
-                },
-                {
-                  "number": 6,
-                  "numberKh": "៦",
-                  "question": "ដើម្បីបន្ថែមផ្ទៃជ្រើសរើសថ្មីចូលរួមជាមួយផ្ទៃចាស់ តើយើងត្រូវសង្កត់គ្រាប់ចុចអ្វី?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Alt"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Ctrl"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Shift"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Tab"
-                    }
-                  ],
-                  "answer": "C",
-                  "answerNote": "Shift"
-                },
-                {
-                  "number": 7,
-                  "numberKh": "៧",
-                  "question": "តើគ្រាប់ចុចកាត់ណាមួយប្រើសម្រាប់ដោះការជ្រើសរើស (Deselect)?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Ctrl + Z"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Ctrl + D"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl + X"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Ctrl + Shift + I"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Ctrl + D"
-                },
-                {
-                  "number": 8,
-                  "numberKh": "៨",
-                  "question": "តើពាក្យបញ្ជាណាមួយផ្លាស់ប្តូរទំហំក្រដាសជុំវិញរូបភាពដោយមិនធ្វើឱ្យរូបភាពដើមរួម ឬរីកមាឌ?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Image Size"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Canvas Size"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Free Transform"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Crop Tool"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Canvas Size"
-                },
-                {
-                  "number": 9,
-                  "numberKh": "៩",
-                  "question": "តើគ្រាប់ចុចកាត់ណាមួយប្រើសម្រាប់បើកស៊ុមបញ្ជា Free Transform?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Ctrl + F"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Ctrl + T"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl + Shift + T"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Alt + T"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Ctrl + T"
-                },
-                {
-                  "number": 10,
-                  "numberKh": "១០",
-                  "question": "តើគ្រាប់ចុចកាត់ណាមួយសម្រាប់ចម្លងស្ទួន Layer មួយទៅកាន់ Layer ថ្មីភ្លាមៗ (Duplicate)?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Ctrl + C"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Ctrl + J"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl + D"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Ctrl + N"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Ctrl + J"
-                },
-                {
-                  "number": 11,
-                  "numberKh": "១១",
-                  "question": "តើអ្វីជាភាពខុសគ្នារវាង Opacity និង Fill នៅលើផ្ទាំង Layers Panel?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "គ្មានភាពខុសគ្នាឡើយ"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Opacity បន្ថយភាពច្បាស់ទាំងរូប និង Layer Styles ចំណែក Fill បន្ថយតែរូបដោយរក្សា Styles"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Fill ប្រើបានតែលើរូបស-ខ្មៅ"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Opacity មិនអាចកែប្រែបាន"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Opacity vs Fill"
-                },
-                {
-                  "number": 12,
-                  "numberKh": "១២",
-                  "question": "តើ Blending Mode ណាមួយដែលលុបបំបាត់ពណ៌ខ្មៅ និងស្រមោល រក្សាទុកតែពន្លឺភ្លឺ?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Multiply"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Screen"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Overlay"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Darken"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Screen"
-                },
-                {
-                  "number": 13,
-                  "numberKh": "១៣",
-                  "question": "តើគ្រាប់ចុចកាត់ណាមួយប្រើសម្រាប់ពង្រីកទំហំមុខកាត់ជក់ (Brush Size)?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "[ (គ្នាបើក)"
-                    },
-                    {
-                      "key": "B",
-                      "text": "] (គ្នាបិទ)"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl + ]"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Shift + ]"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "] គ្នាបិទ"
-                },
-                {
-                  "number": 14,
-                  "numberKh": "១៤",
-                  "question": "ដើម្បីកំណត់ពណ៌ Foreground និង Background ឱ្យត្រឡប់ទៅជា ស និង ខ្មៅ តាមលំនាំដើម តើត្រូវចុចគ្រាប់ចុចអ្វី?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "X"
-                    },
-                    {
-                      "key": "B",
-                      "text": "D"
-                    },
-                    {
-                      "key": "C",
-                      "text": "B"
-                    },
-                    {
-                      "key": "D",
-                      "text": "I"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "គ្រាប់ចុច D"
-                },
-                {
-                  "number": 15,
-                  "numberKh": "១៥",
-                  "question": "តើឧបករណ៍ណាដែលលុបស្នាមមុនតូចៗបានលឿនបំផុតដោយការចុចតែម្តងតាមរយៈ AI?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Clone Stamp Tool"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Spot Healing Brush Tool"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Patch Tool"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Eraser Tool"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Spot Healing"
-                },
-                {
-                  "number": 16,
-                  "numberKh": "១៦",
-                  "question": "ដើម្បីកំណត់ចំណុចគំរូ (Sample Point) ក្នុង Clone Stamp Tool តើយើងត្រូវសង្កត់គ្រាប់ចុចអ្វី?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Shift"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Alt"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Tab"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Alt"
-                },
-                {
-                  "number": 17,
-                  "numberKh": "១៧",
-                  "question": "តើឧបករណ៍អ្វីដែលប្រើសម្រាប់បង្កើនពន្លឺ (Highlight) លើផ្ទៃរូបភាពដូចជាធ្វើឱ្យធ្មេញស?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Burn Tool"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Sponge Tool"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Dodge Tool"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Blur Tool"
-                    }
-                  ],
-                  "answer": "C",
-                  "answerNote": "Dodge Tool"
-                },
-                {
-                  "number": 18,
-                  "numberKh": "១៨",
-                  "question": "នៅក្នុង Layer Mask តើពណ៌ខ្មៅមានតួនាទីអ្វីលើរូបភាព?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "បង្ហាញរូបភាព"
-                    },
-                    {
-                      "key": "B",
-                      "text": "លាក់បាំងរូបភាព"
-                    },
-                    {
-                      "key": "C",
-                      "text": "ប្តូរពណ៌ទៅជាក្រហម"
-                    },
-                    {
-                      "key": "D",
-                      "text": "លុបរូបភាពចោលជាអចិន្ត្រៃយ៍"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "លាក់បាំង"
-                },
-                {
-                  "number": 19,
-                  "numberKh": "១៩",
-                  "question": "តើគ្រាប់ចុចកាត់ណាមួយប្រើសម្រាប់បង្កើត ឬដោះចេញនូវ Clipping Mask?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Ctrl + G"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Ctrl + Shift + G"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl + Alt + G"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Alt + G"
-                    }
-                  ],
-                  "answer": "C",
-                  "answerNote": "Ctrl+Alt+G"
-                },
-                {
-                  "number": 20,
-                  "numberKh": "២០",
-                  "question": "តើត្រូវបំប្លែង Layer ទៅជាអ្វីជាមុនសិន ដើម្បីឱ្យ Filter ក្លាយជា Smart Filter មិនបំផ្លាញរូបដើម?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Background Layer"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Smart Object"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Text Layer"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Shape Layer"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Smart Object"
-                },
-                {
-                  "number": 21,
-                  "numberKh": "២១",
-                  "question": "តើគ្រាប់ចុចកាត់ណាមួយប្រើសម្រាប់បើកផ្ទាំង Camera Raw Filter?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "Ctrl + R"
-                    },
-                    {
-                      "key": "B",
-                      "text": "Ctrl + Shift + A"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Ctrl + Alt + C"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Shift + F5"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "Ctrl+Shift+A"
-                },
-                {
-                  "number": 22,
-                  "numberKh": "២២",
-                  "question": "តើប្រព័ន្ធពណ៌ណាមួយដែលត្រូវប្រើប្រាស់សម្រាប់ការងារដែលត្រូវបញ្ជូនទៅបោះពុម្ពលើក្រដាស?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "RGB"
-                    },
-                    {
-                      "key": "B",
-                      "text": "CMYK"
-                    },
-                    {
-                      "key": "C",
-                      "text": "Grayscale"
-                    },
-                    {
-                      "key": "D",
-                      "text": "Lab Color"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "CMYK"
-                },
-                {
-                  "number": 23,
-                  "numberKh": "២៣",
-                  "question": "តើកម្រិត Resolution ស្តង់ដារសម្រាប់ការងារបោះពុម្ពគុណភាពខ្ពស់ (Print) គឺប៉ុន្មាន?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "72 DPI"
-                    },
-                    {
-                      "key": "B",
-                      "text": "150 DPI"
-                    },
-                    {
-                      "key": "C",
-                      "text": "300 DPI"
-                    },
-                    {
-                      "key": "D",
-                      "text": "600 DPI"
-                    }
-                  ],
-                  "answer": "C",
-                  "answerNote": "300 DPI"
-                },
-                {
-                  "number": 24,
-                  "numberKh": "២៤",
-                  "question": "តើប្រភេទ File ណាមួយដែលរក្សាទុករាល់ Layers, Masks, Channels និង Effects ទាំងអស់របស់ Photoshop?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "JPEG"
-                    },
-                    {
-                      "key": "B",
-                      "text": "PNG"
-                    },
-                    {
-                      "key": "C",
-                      "text": "PSD"
-                    },
-                    {
-                      "key": "D",
-                      "text": "TIFF"
-                    }
-                  ],
-                  "answer": "C",
-                  "answerNote": "PSD"
-                },
-                {
-                  "number": 25,
-                  "numberKh": "២៥",
-                  "question": "តើប្រភេទ File រូបភាពណាដែលគាំទ្រផ្ទៃបាតថ្លា (Transparent Background) និងមិនបាត់បង់គុណភាព?",
-                  "options": [
-                    {
-                      "key": "A",
-                      "text": "JPEG"
-                    },
-                    {
-                      "key": "B",
-                      "text": "PNG"
-                    },
-                    {
-                      "key": "C",
-                      "text": "BMP"
-                    },
-                    {
-                      "key": "D",
-                      "text": "RAW"
-                    }
-                  ],
-                  "answer": "B",
-                  "answerNote": "PNG"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lesson-18",
-      "number": 18,
-      "isAppendix": true,
-      "appendixNum": 4,
-      "label": "ឧបសម្ព័ន្ធទី ៤",
-      "title": "កម្រងចម្លើយផ្លូវការ (Official Answer Key)",
-      "fullTitle": "ឧបសម្ព័ន្ធទី ៤ ៖ កម្រងចម្លើយផ្លូវការ (Official Answer Key)",
-      "pageStart": 138,
-      "pageEnd": 140,
-      "objectives": [],
-      "sections": [
-        {
-          "title": "កម្រងចម្លើយផ្លូវការសម្រាប់សំណួរពហុជ្រើសរើស (MCQs) នៃគ្រប់មេរៀនទាំងអស់ និងវិញ្ញាសាប្រឡង ទ្រឹស្ដីបញ្ចប់វគ្គ ៖",
-          "items": [
-            {
-              "type": "table",
-              "headers": [
-                "មេរៀន / វិញ្ញាសា",
-                "ចម្លើយសំណួរទី ១",
-                "ចម្លើយសំណួរទី ២",
-                "ចម្លើយសំណួរទី ៣",
-                "ចម្លើយសំណួរទី ៤",
-                "ចម្លើយសំណួរទី ៥"
-              ],
-              "rows": [
-                [
-                  "មេរៀនទី ២ ៖ Tools & Workspace",
-                  "B (Tab)",
-                  "C (Options Bar)",
-                  "B (Fit on Screen)",
-                  "B (History Panel)",
-                  "B (Ctrl + R)"
-                ],
-                [
-                  "មេរៀនទី ៣ ៖ Selection Tools",
-                  "B (Ctrl + D)",
-                  "C (Shift)",
-                  "B (Ctrl + Shift + I)",
-                  "C (Object Selection)",
-                  "B (Ctrl + J)"
-                ],
-                [
-                  "មេរៀនទី ៤ ៖ Cropping & Transform",
-                  "B (Ctrl + T)",
-                  "B (Straighten)",
-                  "B (Image Size vs Canvas)",
-                  "B (Enter)",
-                  "B (Flip Horizontal)"
-                ],
-                [
-                  "មេរៀនទី ៥ ៖ Managing Layers",
-                  "A (Ctrl + G)",
-                  "B (Opacity vs Fill)",
-                  "C (Screen)",
-                  "B (Ctrl + J)",
-                  "C (Lock Transparent)"
-                ],
-                [
-                  "មេរៀនទី ៦ ៖ Brush & Painting",
-                  "B (] គ្នាបិទ)",
-                  "B (គែមព្រិលទន់)",
-                  "B (គ្រាប់ចុច D)",
-                  "B (Eyedropper)",
-                  "B (Define Brush Preset)"
-                ],
-                [
-                  "មេរៀនទី ៧ ៖ Text & Shape Tools",
-                  "B (Paragraph Type)",
-                  "B (Line Spacing)",
-                  "B (Vector Graphics)",
-                  "B (Shift)",
-                  "B (World-Ready Layout)"
-                ],
-                [
-                  "មេរៀនទី ៨ ៖ Photo Retouching",
-                  "B (Spot Healing Brush)",
-                  "C (គ្រាប់ចុច Alt)",
-                  "B (បង្កើនពន្លឺ Highlight)",
-                  "A (Content-Aware Fill)",
-                  "B (Current & Below)"
-                ],
-                [
-                  "មេរៀនទី ៩ ៖ Color Adjustments",
-                  "B (Non-destructive)",
-                  "A (Ctrl + L)",
-                  "B (S-Curve Contrast)",
-                  "B (Vibrance)",
-                  "C (Ctrl + U)"
-                ],
-                [
-                  "មេរៀនទី ១០ ៖ Layer & Clipping Mask",
-                  "B (លាក់បាំងរូបភាព)",
-                  "B (White Reveals, Black Conceals)",
-                  "C (Ctrl + Alt + G)",
-                  "B (គ្រាប់ចុច X)",
-                  "B (Alt + Click លើ Mask)"
-                ],
-                [
-                  "មេរៀនទី ១១ ៖ Filters & Effects",
-                  "B (Smart Object)",
-                  "B (Ctrl + Shift + A)",
-                  "A (Face-Aware Liquify)",
-                  "C (Drop Shadow)",
-                  "B (Motion Blur)"
-                ],
-                [
-                  "មេរៀនទី ១២ ៖ Color Modes & Res",
-                  "B (CMYK Color)",
-                  "C (300 DPI)",
-                  "B (Pixels Per Inch)",
-                  "B (1080 x 1080 px)",
-                  "B (ការពារកាំបិតកាត់)"
-                ],
-                [
-                  "មេរៀនទី ១៣ ៖ Saving & Exporting",
-                  "C (PSD Format)",
-                  "B (PNG Format)",
-                  "B (Save a Copy)",
-                  "B (Alt+Shift+Ctrl+W)",
-                  "B (Press Quality)"
-                ],
-                [
-                  "មេរៀនទី ១៤ ៖ Advanced Techniques",
-                  "B (Smart Object)",
-                  "C (Puppet Warp)",
-                  "B (Content-Aware Scale)",
-                  "B (បើក Caps Lock)",
-                  "B (Actions Panel)"
-                ]
-              ]
-            }
-          ]
-        },
-        {
-          "title": "កម្រងចម្លើយវិញ្ញាសាប្រឡងទ្រឹស្ដីបញ្ចប់វគ្គ (Final Exam Answer Key) ៖",
-          "items": [
-            {
-              "type": "table",
-              "headers": [
-                "ល.រ",
-                "ចម្លើយត្រឹមត្រូវ",
-                "ល.រ",
-                "ចម្លើយត្រឹមត្រូវ",
-                "ល.រ",
-                "ចម្លើយត្រឹមត្រូវ",
-                "ល.រ",
-                "ចម្លើយត្រឹមត្រូវ",
-                "ល.រ",
-                "ចម្លើយត្រឹមត្រូវ"
-              ],
-              "rows": [
-                [
-                  "1",
-                  "B (Raster/Pixel)",
-                  "6",
-                  "C (Shift)",
-                  "11",
-                  "B (Opacity vs Fill)",
-                  "16",
-                  "B (Alt)",
-                  "21",
-                  "B (Ctrl+Shift+A)"
-                ],
-                [
-                  "2",
-                  "B (Ctrl + N)",
-                  "7",
-                  "B (Ctrl + D)",
-                  "12",
-                  "B (Screen)",
-                  "17",
-                  "C (Dodge Tool)",
-                  "22",
-                  "B (CMYK)"
-                ],
-                [
-                  "3",
-                  "C (Options Bar)",
-                  "8",
-                  "B (Canvas Size)",
-                  "13",
-                  "B (] គ្នាបិទ)",
-                  "18",
-                  "B (លាក់បាំង)",
-                  "23",
-                  "C (300 DPI)"
-                ],
-                [
-                  "4",
-                  "B (Hand Tool)",
-                  "9",
-                  "B (Ctrl + T)",
-                  "14",
-                  "B (គ្រាប់ចុច D)",
-                  "19",
-                  "C (Ctrl+Alt+G)",
-                  "24",
-                  "C (PSD)"
-                ],
-                [
-                  "5",
-                  "C (Object Selection)",
-                  "10",
-                  "B (Ctrl + J)",
-                  "15",
-                  "B (Spot Healing)",
-                  "20",
-                  "B (Smart Object)",
-                  "25",
-                  "B (PNG)"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "kind": "note",
-              "text": "សារដាស់តឿនលើកទឹកចិត្តដល់សិក្ខាកាម (Instructor's Note) ៖ ការចេះចាំទ្រឹស្ដី និងឧបករណ៍គឺជាជំហាន ដំបូង ប៉ុន្តែភាពប៉ិនប្រសប់ពិតប្រាកដក្នុងវិស័យរចនាក្រាហ្វិក កើតចេញពីការអនុវត្តផ្ទាល់ជារៀងរាល់ថ្ងៃ។ សូមបន្ត ហាត់រចនា ស្វែងរកគំនិតច្នៃប្រឌិតថ្មីៗ និងអភិវឌ្ឍជំនាញផ្ទាល់ខ្លួនឥតឈប់ឈរ ដើម្បីក្លាយជាអ្នករចនាក្រាហ្វិកអាជីពដ៏ឆ្នើមម្នាក់!"
+              "text": "កម្រងចម្លើយផ្លូវការសម្រាប់សំណួរពហុជ្រើសរើស (MCQs) នៃគ្រប់មេរៀនទាំងអស់ និងវិញ្ញាសាប្រឡង ទ្រឹស្ដីបញ្ចប់វគ្គ ៖"
             }
           ]
         }

@@ -30,15 +30,16 @@
     return String(value).replace(/[0-9]/g, d => KH_DIGITS[d]);
   }
 
-  // Reading-time estimate from the lesson's page range in the printed book
-  const MINUTES_PER_PAGE = 5;
+  // Study duration label matching the official 45-hour Course Outline (1 ពេល = 90 នាទី)
   function studyTimeLabel(lesson) {
-    const pages = Math.max(1, (lesson.pageEnd || 0) - (lesson.pageStart || 0) + 1);
-    const minutes = Math.max(15, Math.round(pages * MINUTES_PER_PAGE / 5) * 5);
-    const h = Math.floor(minutes / 60);
-    const m = minutes % 60;
-    if (h === 0) return `~${kh(m)} នាទី`;
-    return m ? `~${kh(h)} ម៉ោង ${kh(m)} នាទី` : `~${kh(h)} ម៉ោង`;
+    if (!lesson) return '';
+    if (lesson.durationLabel) return lesson.durationLabel;
+    if (lesson.sessions) {
+      if (lesson.sessions === 1) return `${kh(1)} ពេល (៩០ នាទី)`;
+      if (lesson.sessions === 3) return `${kh(3)} ពេល (៤ ម៉ោង ៣០ នាទី)`;
+      return `${kh(lesson.sessions)} ពេល (${kh(lesson.hours || (lesson.sessions * 1.5))} ម៉ោង)`;
+    }
+    return 'ឯកសារយោងជំនួយ';
   }
 
   // Table cells helper
@@ -673,7 +674,7 @@
         <div class="lesson-action-bar">
           <span style="font-size:0.85rem; color:var(--text-muted); display:flex; align-items:center; gap:0.4rem;">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            រយៈពេលសិក្សា៖ ${studyTimeLabel(lesson)}
+            ${lesson.sessionRange ? `កាលវិភាគ៖ <strong>${lesson.sessionRange}</strong> • ${studyTimeLabel(lesson)}` : `រយៈពេលសិក្សា៖ ${studyTimeLabel(lesson)}`}
           </span>
           <button class="btn-copy-formula" onclick="window.print()" style="margin-left:auto;">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; margin-right:4px;"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
@@ -929,7 +930,7 @@
           <div class="home-hero-content">
             <div style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.35rem 0.85rem; background-color:var(--bg-surface); border:1px solid var(--border-color); border-radius:9999px; font-size:0.8rem; font-weight:700; color:var(--primary); margin-bottom:1rem;">
               <span style="width:8px; height:8px; border-radius:50%; background-color:#10b981;"></span>
-              កាលវិភាគសិក្សា៖ ឆ្នាំទី១ ឆមាសទី១ (៤៥ ម៉ោង)
+              កាលវិភាគសិក្សា៖ ៤៥ ម៉ោង (៣០ ពេល • ១ ពេល = ៩០ នាទី)
             </div>
 
             <h1 style="font-size:clamp(1.6rem, 1.3rem + 1vw, 2.2rem); font-weight:800; line-height:1.45; color:var(--text-main); margin-bottom:0.75rem;">
@@ -989,7 +990,7 @@
           <div class="home-lesson-meta">
             <span>${kh(l.sections.length)} ចំណុចមេរៀន</span>
             <span style="margin: 0 0.35rem;">•</span>
-            <span>${studyTimeLabel(l)}</span>
+            <span style="color:var(--primary); font-weight:600;">${studyTimeLabel(l)}</span>
             ${isDone ? '<span style="margin-left:auto; color:#10b981; font-weight:700; font-size:0.8rem;">✓ រៀនរួច</span>' : ''}
           </div>
         </a>
@@ -1004,10 +1005,10 @@
         <div style="margin-top:2rem;">
           <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:1.25rem; flex-wrap:wrap; gap:0.5rem;">
             <h2 style="font-size:1.45rem; font-weight:700; margin:0; color:var(--text-main);">
-              ឧបសម្ព័ន្ធ និងវិញ្ញាសាប្រឡង (Appendices & Exam)
+              ឧបសម្ព័ន្ធជំនួយ (Course Appendices)
             </h2>
             <span style="font-size:0.88rem; color:#7c3aed; font-weight:600;">
-              សរុប ៤ ឧបសម្ព័ន្ធ
+              សរុប ${kh(appendices.length)} ឧបសម្ព័ន្ធ
             </span>
           </div>
 
@@ -1026,7 +1027,7 @@
             <div class="home-lesson-title">${app.title}</div>
           </div>
           <div class="home-lesson-meta" style="color:#7c3aed;">
-            <span>${app.id === 'lesson-17' ? '២៥ សំណួរពហុជ្រើសរើស' : (app.id === 'lesson-18' ? 'កម្រងចម្លើយផ្លូវការ' : 'ឯកសារយោងជំនួយ')}</span>
+            <span>${app.id === 'lesson-17' ? 'កម្រងចម្លើយផ្លូវការ' : (app.id === 'lesson-16' ? 'វចនានុក្រមបច្ចេកទេស' : 'តារាងផ្លូវកាត់ក្តារចុច')}</span>
             ${isDone ? '<span style="margin-left:auto; color:#10b981; font-weight:700; font-size:0.8rem;">✓ រៀនរួច</span>' : ''}
           </div>
         </a>
