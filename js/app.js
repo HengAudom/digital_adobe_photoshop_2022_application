@@ -668,10 +668,6 @@
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
             ${lesson.isAppendix ? `ប្រភេទឯកសារ៖ <strong>${lesson.title}</strong>` : `សៀវភៅបោះពុម្ព៖ <strong>ទំព័រ ${kh(lesson.pageStart)} ដល់ ${kh(lesson.pageEnd)}</strong> (${kh(lesson.sections.length)} ចំណុច)`}
           </span>
-          <button class="btn-copy-formula" onclick="window.print()" style="margin-left:auto;">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline; margin-right:4px;"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
-            បោះពុម្ពមេរៀន (Print)
-          </button>
         </div>
       </header>
     `;
